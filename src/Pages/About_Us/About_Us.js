@@ -31,6 +31,7 @@ function About_Us() {
           border: "5px dashed #003",
           padding: "20px",
           margin: "20px",
+          backgroundColor: "#003",
         }}
       >
         <li>

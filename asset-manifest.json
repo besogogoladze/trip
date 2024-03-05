@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/trip/static/css/main.3790d87f.css",
-    "main.js": "/trip/static/js/main.d36cb5de.js",
-    "static/css/91.542f60f2.chunk.css": "/trip/static/css/91.542f60f2.chunk.css",
-    "static/js/91.00d2e5b4.chunk.js": "/trip/static/js/91.00d2e5b4.chunk.js",
-    "static/css/166.446f3b0c.chunk.css": "/trip/static/css/166.446f3b0c.chunk.css",
-    "static/js/166.09a76e39.chunk.js": "/trip/static/js/166.09a76e39.chunk.js",
-    "static/js/452.63d19e66.chunk.js": "/trip/static/js/452.63d19e66.chunk.js",
-    "static/js/638.1d5c4614.chunk.js": "/trip/static/js/638.1d5c4614.chunk.js",
-    "static/js/368.c17687d0.chunk.js": "/trip/static/js/368.c17687d0.chunk.js",
-    "static/media/portugal-douro-porto-croisieurope-slider-pli-shutterstock.jpg": "/trip/static/media/portugal-douro-porto-croisieurope-slider-pli-shutterstock.62f99affae10a9cabab8.jpg",
-    "static/media/1701822270_portoslider2023001.jpg": "/trip/static/media/1701822270_portoslider2023001.b375891093ffed4af0fc.jpg",
-    "static/media/1409039214015.jpg": "/trip/static/media/1409039214015.fed713e4fa0b7c8cd20d.jpg",
-    "index.html": "/trip/index.html",
-    "main.3790d87f.css.map": "/trip/static/css/main.3790d87f.css.map",
-    "main.d36cb5de.js.map": "/trip/static/js/main.d36cb5de.js.map",
-    "91.542f60f2.chunk.css.map": "/trip/static/css/91.542f60f2.chunk.css.map",
-    "91.00d2e5b4.chunk.js.map": "/trip/static/js/91.00d2e5b4.chunk.js.map",
-    "166.446f3b0c.chunk.css.map": "/trip/static/css/166.446f3b0c.chunk.css.map",
-    "166.09a76e39.chunk.js.map": "/trip/static/js/166.09a76e39.chunk.js.map",
-    "452.63d19e66.chunk.js.map": "/trip/static/js/452.63d19e66.chunk.js.map",
-    "638.1d5c4614.chunk.js.map": "/trip/static/js/638.1d5c4614.chunk.js.map",
-    "368.c17687d0.chunk.js.map": "/trip/static/js/368.c17687d0.chunk.js.map"
+    "main.css": "/static/css/main.3790d87f.css",
+    "main.js": "/static/js/main.ab18f58c.js",
+    "static/css/91.542f60f2.chunk.css": "/static/css/91.542f60f2.chunk.css",
+    "static/js/91.00d2e5b4.chunk.js": "/static/js/91.00d2e5b4.chunk.js",
+    "static/css/166.446f3b0c.chunk.css": "/static/css/166.446f3b0c.chunk.css",
+    "static/js/166.09a76e39.chunk.js": "/static/js/166.09a76e39.chunk.js",
+    "static/js/452.63d19e66.chunk.js": "/static/js/452.63d19e66.chunk.js",
+    "static/js/638.1d5c4614.chunk.js": "/static/js/638.1d5c4614.chunk.js",
+    "static/js/368.48e96927.chunk.js": "/static/js/368.48e96927.chunk.js",
+    "static/media/portugal-douro-porto-croisieurope-slider-pli-shutterstock.jpg": "/static/media/portugal-douro-porto-croisieurope-slider-pli-shutterstock.62f99affae10a9cabab8.jpg",
+    "static/media/1701822270_portoslider2023001.jpg": "/static/media/1701822270_portoslider2023001.b375891093ffed4af0fc.jpg",
+    "static/media/1409039214015.jpg": "/static/media/1409039214015.fed713e4fa0b7c8cd20d.jpg",
+    "index.html": "/index.html",
+    "main.3790d87f.css.map": "/static/css/main.3790d87f.css.map",
+    "main.ab18f58c.js.map": "/static/js/main.ab18f58c.js.map",
+    "91.542f60f2.chunk.css.map": "/static/css/91.542f60f2.chunk.css.map",
+    "91.00d2e5b4.chunk.js.map": "/static/js/91.00d2e5b4.chunk.js.map",
+    "166.446f3b0c.chunk.css.map": "/static/css/166.446f3b0c.chunk.css.map",
+    "166.09a76e39.chunk.js.map": "/static/js/166.09a76e39.chunk.js.map",
+    "452.63d19e66.chunk.js.map": "/static/js/452.63d19e66.chunk.js.map",
+    "638.1d5c4614.chunk.js.map": "/static/js/638.1d5c4614.chunk.js.map",
+    "368.48e96927.chunk.js.map": "/static/js/368.48e96927.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3790d87f.css",
-    "static/js/main.d36cb5de.js"
+    "static/js/main.ab18f58c.js"
   ]
 }

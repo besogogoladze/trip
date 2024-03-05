@@ -1,15 +1,16 @@
 import React, { useEffect, useRef, useState } from "react";
-import slide_1 from "../../Images/portugal-douro-porto-croisieurope-slider-pli-shutterstock.jpg";
-import slide_2 from "../../Images/1701822270_portoslider2023001.jpg";
+import slide_1 from "../../../Images/portugal-douro-porto-croisieurope-slider-pli-shutterstock.jpg";
+import slide_2 from "../../../Images/portugal-douro-porto-croisieurope-slider-pli-shutterstock.jpg";
 import Carousel from "react-elastic-carousel";
 import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOutlined";
 import ArrowCircleLeftOutlinedIcon from "@mui/icons-material/ArrowCircleLeftOutlined";
 import { Button } from "@mui/material";
 import Box from "@mui/material/Box";
-import "./home.css"
+import "../home.css";
+import "./slider.css";
 
 function Slider() {
-     const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
   const carousel = useRef(null);
   const ArrowStyle = useRef(null);
 
@@ -26,8 +27,7 @@ function Slider() {
             sx={{
               margin: "auto",
             }}
-          >
-          </Box>
+          ></Box>
         </div>
       ) : (
         <div style={{ display: "flex", position: "relative", width: "100%" }}>
@@ -70,7 +70,12 @@ function Slider() {
           </Carousel>
           <Button
             ref={ArrowStyle}
-            style={{ position: "absolute", right: "20px", top: "40%", color:"#000 !important" }}
+            style={{
+              position: "absolute",
+              right: "20px",
+              top: "40%",
+              color: "#000 !important",
+            }}
             onClick={() =>
               carousel.current.state.activeIndex !==
               carousel.current.state.pages.length - 1
@@ -87,7 +92,7 @@ function Slider() {
         </div>
       )}
     </>
-  )
+  );
 }
 
-export default Slider
+export default Slider;

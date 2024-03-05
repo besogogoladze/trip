@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "@mui/material";
-import { SmartButtonOutlined } from "@mui/icons-material";
 import Button from "@mui/material/Button";
 import { NavLink } from "react-router-dom";
 function SectionOne() {

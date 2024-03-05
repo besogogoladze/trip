@@ -13,7 +13,7 @@ export class Header extends Component {
             </NavLink>
           </li>
           <li>
-            <NavLink exact="true" to="/TRIP">
+            <NavLink exact="true" to="/trip_page">
               Trip
             </NavLink>
           </li>

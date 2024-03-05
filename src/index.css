@@ -21,3 +21,19 @@ code {
   font-weight: "normal";
   font-style: "normal";
 }
+
+@media only screen and (max-width: 900px) {
+  .groupeMembers_li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .groupeMembers_img_p {
+    flex-direction: column;
+  }
+  .groupeMembers_img_p img {
+    width: 40% !important;
+    align-self: center;
+  }
+}

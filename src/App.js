@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import { Suspense, lazy } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
@@ -12,7 +13,7 @@ function App() {
     <Suspense fallback={<div>loading...</div>}>
       <Header />
       <Routes>
-        <Route path="/trip" exact element={<Home />} />
+        <Route path="/" exact element={<Home />} />
         <Route path="/ABOUT_US" exact element={<About_Us />} />
         <Route path="/trip_page" exact element={<Trip />} />
       </Routes>

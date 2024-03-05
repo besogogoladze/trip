@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "@mui/system";
 import "./about_Us.css";
 import "../../index.css";
-import ImgBesiki from "../../Images/1409039214015.jpg";
+import ImgBesiki from "../../Images/incognito.jpg";
 function About_Us() {
   return (
     <Container>
@@ -31,11 +31,10 @@ function About_Us() {
           border: "5px dashed #003",
           padding: "20px",
           margin: "20px",
-          backgroundColor: "#003",
         }}
       >
-        <li>
-          <h3>GOGOLADZE Besiki</h3>
+        <li className="groupeMembers_li">
+          <h3 style={{ marginBottom: "30px" }}>GOGOLADZE Besiki</h3>
           <div
             style={{
               display: "flex",
@@ -43,8 +42,9 @@ function About_Us() {
               alignItems: "flex-start",
               gap: "60px",
             }}
+            className="groupeMembers_img_p"
           >
-            <img src={ImgBesiki} alt="img error" />
+            <img style={{ width: "250px" }} src={ImgBesiki} alt="img error" />
             <p className="kodeMonoFont">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
               mollitia, molestiae quas vel sint commodi repudiandae consequuntur
@@ -65,8 +65,8 @@ function About_Us() {
             margin: "50px 0 20px 0",
           }}
         ></div>
-        <li>
-          <h3>ADJA Ndiaye</h3>
+        <li className="groupeMembers_li"> 
+          <h3 style={{ marginBottom: "30px" }}>ADJA Ndiaye</h3>
           <div
             style={{
               display: "flex",
@@ -74,11 +74,9 @@ function About_Us() {
               alignItems: "flex-start",
               gap: "60px",
             }}
+            className="groupeMembers_img_p"
           >
-            <img
-              src="https://static.wixstatic.com/media/dd3c85_afde82542b5e4cce8d7c526246761e51~mv2.png/v1/fill/w_181,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Capture%20d'%C3%A9cran%202023-03-30%20111828.png"
-              alt="img error"
-            />
+            <img style={{ width: "250px" }} src={ImgBesiki} alt="img error" />
             <p className="kodeMonoFont">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
               mollitia, molestiae quas vel sint commodi repudiandae consequuntur
@@ -99,8 +97,8 @@ function About_Us() {
             margin: "50px 0 20px 0",
           }}
         ></div>
-        <li>
-          <h3>Ye Wint Hlaing</h3>
+        <li className="groupeMembers_li">
+          <h3 style={{ marginBottom: "30px" }}>Ye Wint Hlaing</h3>
           <div
             style={{
               display: "flex",
@@ -108,11 +106,9 @@ function About_Us() {
               alignItems: "flex-start",
               gap: "60px",
             }}
+            className="groupeMembers_img_p"
           >
-            <img
-              src="https://static.wixstatic.com/media/dd3c85_afde82542b5e4cce8d7c526246761e51~mv2.png/v1/fill/w_181,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Capture%20d'%C3%A9cran%202023-03-30%20111828.png"
-              alt="img error"
-            />
+            <img style={{ width: "250px" }} src={ImgBesiki} alt="img error" />
             <p className="kodeMonoFont">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
               mollitia, molestiae quas vel sint commodi repudiandae consequuntur

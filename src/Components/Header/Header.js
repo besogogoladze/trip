@@ -8,7 +8,7 @@ export class Header extends Component {
       <div className="header">
         <ul>
           <li>
-            <NavLink exact="true" to="/">
+            <NavLink exact="true" to="/trip">
               Home
             </NavLink>
           </li>

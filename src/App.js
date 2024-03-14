@@ -2,8 +2,8 @@
 import { Suspense, lazy } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer.js";
+import HeaderNav from "./Components/Header/HeaderNav.js";
 const Home = lazy(() => import("./Pages/Home/Home"));
 const About_Us = lazy(() => import("./Pages/About_Us/About_Us.js"));
 const Trip = lazy(() => import("./Pages/Trip"));
@@ -11,7 +11,7 @@ const Trip = lazy(() => import("./Pages/Trip"));
 function App() {
   return (
     <Suspense fallback={<div>loading...</div>}>
-      <Header />
+      <HeaderNav />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/ABOUT_US" exact element={<About_Us />} />

@@ -1,0 +1,110 @@
+#Navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 80%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: unset;
+  color: #fff;
+}
+/*BurgerMenu*/
+.burgerMenuNotActive {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 0;
+  font-weight: bold;
+  width: 100%;
+  display: inline-block;
+  color: #fff;
+}
+.burgerMenuIsActive {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 0;
+  font-weight: bold;
+  width: 100%;
+  display: inline-block;
+  color: #92000a;
+}
+.burgerMenuNotActive:hover {
+  color: #92000a;
+}
+/*BurgerMenu*/
+/*Navigation Menu*/
+/* .notActive {
+  padding: 10px;
+  color: #fff;
+} */
+/* .isActive {
+  padding: 10px;
+  color: #92000a;
+  border-bottom: #fff 1px solid;
+}
+.notActive:hover {
+  padding: 10px;
+  color: #92000a;
+  border-bottom: #fff 1px solid;
+} */
+.isActive {
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  color: #92000a;
+}
+.notActive {
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+.notActive:hover {
+  color: #92000a;
+}
+.isActive:after,
+.notActive:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: -50%;
+  background-color: #fff;
+  transform-origin: bottom left;
+  transition: transform 0.5s ease-out;
+}
+.isActive:before,
+.notActive:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  right: -50%;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+.isActive:hover:before,
+.notActive:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.isActive:hover:after,
+.notActive:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom right;
+}
+/*Navigation Menu*/

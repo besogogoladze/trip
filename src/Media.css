@@ -1,0 +1,8 @@
+@media only screen and (max-width: 540px) {
+  #Navigation {
+    display: none !important;
+  }
+  #BurgerMenu {
+    display: block !important;
+  }
+}

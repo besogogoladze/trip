@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/trip/static/css/main.38a0ba96.css",
-    "main.js": "/trip/static/js/main.7ef142ce.js",
+    "main.css": "/trip/static/css/main.9e2cbecb.css",
+    "main.js": "/trip/static/js/main.bf990f32.js",
     "static/css/269.82e2d6c6.chunk.css": "/trip/static/css/269.82e2d6c6.chunk.css",
-    "static/js/269.d61156d9.chunk.js": "/trip/static/js/269.d61156d9.chunk.js",
+    "static/js/269.0b6905a1.chunk.js": "/trip/static/js/269.0b6905a1.chunk.js",
     "static/css/97.4f61747f.chunk.css": "/trip/static/css/97.4f61747f.chunk.css",
-    "static/js/97.f88bf7c9.chunk.js": "/trip/static/js/97.f88bf7c9.chunk.js",
+    "static/js/97.889de3c8.chunk.js": "/trip/static/js/97.889de3c8.chunk.js",
     "static/js/452.63d19e66.chunk.js": "/trip/static/js/452.63d19e66.chunk.js",
-    "static/js/999.19066c8e.chunk.js": "/trip/static/js/999.19066c8e.chunk.js",
-    "static/js/345.010f5f07.chunk.js": "/trip/static/js/345.010f5f07.chunk.js",
+    "static/js/408.6c1538ef.chunk.js": "/trip/static/js/408.6c1538ef.chunk.js",
     "static/media/portugal-douro-porto-croisieurope-slider-pli-shutterstock.jpg": "/trip/static/media/portugal-douro-porto-croisieurope-slider-pli-shutterstock.62f99affae10a9cabab8.jpg",
+    "static/media/img.png": "/trip/static/media/img.11b76f517e3dab976ac9.png",
     "index.html": "/trip/index.html",
-    "main.38a0ba96.css.map": "/trip/static/css/main.38a0ba96.css.map",
-    "main.7ef142ce.js.map": "/trip/static/js/main.7ef142ce.js.map",
+    "main.9e2cbecb.css.map": "/trip/static/css/main.9e2cbecb.css.map",
+    "main.bf990f32.js.map": "/trip/static/js/main.bf990f32.js.map",
     "269.82e2d6c6.chunk.css.map": "/trip/static/css/269.82e2d6c6.chunk.css.map",
-    "269.d61156d9.chunk.js.map": "/trip/static/js/269.d61156d9.chunk.js.map",
+    "269.0b6905a1.chunk.js.map": "/trip/static/js/269.0b6905a1.chunk.js.map",
     "97.4f61747f.chunk.css.map": "/trip/static/css/97.4f61747f.chunk.css.map",
-    "97.f88bf7c9.chunk.js.map": "/trip/static/js/97.f88bf7c9.chunk.js.map",
+    "97.889de3c8.chunk.js.map": "/trip/static/js/97.889de3c8.chunk.js.map",
     "452.63d19e66.chunk.js.map": "/trip/static/js/452.63d19e66.chunk.js.map",
-    "999.19066c8e.chunk.js.map": "/trip/static/js/999.19066c8e.chunk.js.map",
-    "345.010f5f07.chunk.js.map": "/trip/static/js/345.010f5f07.chunk.js.map"
+    "408.6c1538ef.chunk.js.map": "/trip/static/js/408.6c1538ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38a0ba96.css",
-    "static/js/main.7ef142ce.js"
+    "static/css/main.9e2cbecb.css",
+    "static/js/main.bf990f32.js"
   ]
 }

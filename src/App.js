@@ -8,6 +8,8 @@ const Home = lazy(() => import("./Pages/Home/Home"));
 const About_Us = lazy(() => import("./Pages/About_Us/About_Us.js"));
 const Trip = lazy(() => import("./Pages/Trip"));
 
+
+
 function App() {
   return (
     <Suspense fallback={<div>loading...</div>}>

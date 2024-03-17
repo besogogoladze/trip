@@ -5,22 +5,23 @@ import "../../index.css";
 import ImgBesiki from "../../Images/incognito.jpg";
 function About_Us() {
   return (
-    <Container>
+    <Container
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <div
         style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          marginTop: "150px",
         }}
       >
-        <h1
-          className="kodeMonoFont"
-          style={{
-            marginTop: "150px",
-          }}
-        >
-          Groupe Members
-        </h1>
+        <h1 className="kodeMonoFont">Groupe Members</h1>
       </div>
       <ul
         style={{
@@ -65,7 +66,7 @@ function About_Us() {
             margin: "50px 0 20px 0",
           }}
         ></div>
-        <li className="groupeMembers_li"> 
+        <li className="groupeMembers_li">
           <h3 style={{ marginBottom: "30px" }}>ADJA Ndiaye</h3>
           <div
             style={{

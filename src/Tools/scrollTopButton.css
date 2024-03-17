@@ -1,0 +1,21 @@
+.scrollButton {
+  padding: 10px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #d33;
+  border: 1px #fff solid;
+}
+.scrollButton:hover {
+  background-color: #fff;
+  border-color: #d33;
+}
+.scrollButton:hover > .scrollArrow {
+  color: #d33;
+}
+.scrollArrow {
+  font-size: 25px !important;
+  color: #fff;
+}

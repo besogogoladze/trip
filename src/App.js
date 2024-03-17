@@ -4,11 +4,10 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Footer from "./Components/Footer/Footer.js";
 import HeaderNav from "./Components/Header/HeaderNav.js";
+import ScrollTopButton from "./Tools/ScrollTopButton.js";
 const Home = lazy(() => import("./Pages/Home/Home"));
 const About_Us = lazy(() => import("./Pages/About_Us/About_Us.js"));
 const Trip = lazy(() => import("./Pages/Trip"));
-
-
 
 function App() {
   return (
@@ -20,6 +19,7 @@ function App() {
         <Route path="/trip_page" exact element={<Trip />} />
       </Routes>
       <Footer />
+      <ScrollTopButton />
     </Suspense>
   );
 }

@@ -1,6 +1,9 @@
 #BurgerMenu {
   display: none;
 }
+#BurgerMenu:hover {
+  color: #d33 !important;
+}
 .header {
   width: 100%;
   background-color: #003;

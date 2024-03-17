@@ -34,10 +34,10 @@ a {
   font-weight: bold;
   width: 100%;
   display: inline-block;
-  color: #92000a;
+  color: #d33;
 }
 .burgerMenuNotActive:hover {
-  color: #92000a;
+  color: #d33;
 }
 /*BurgerMenu*/
 /*Navigation Menu*/
@@ -59,7 +59,7 @@ a {
   padding: 10px;
   display: inline-block;
   position: relative;
-  color: #92000a;
+  color: #d33;
 }
 .notActive {
   padding: 10px;
@@ -68,7 +68,7 @@ a {
   color: #fff;
 }
 .notActive:hover {
-  color: #92000a;
+  color: #d33;
 }
 .isActive:after,
 .notActive:after {

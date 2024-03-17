@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 import { Divider } from "@mui/material";
 import "../HeaderNav.css";
 import "../Nav/header.css";
-import img from "../../../Images/img.png";
+import img from "../../../Images/Logo.png";
 
 const BurgerMenu = () => {
   const [state, setState] = React.useState({
@@ -60,7 +60,7 @@ const BurgerMenu = () => {
             exact="true"
             to="/"
           >
-            Home
+            HOME
           </NavLink>
         </li>
         <Divider style={{ backgroundColor: "#fff", width: "100%" }} />
@@ -72,7 +72,7 @@ const BurgerMenu = () => {
             exact="true"
             to="/trip_page"
           >
-            Trip
+            TRIP
           </NavLink>
         </li>
         <Divider style={{ backgroundColor: "#fff", width: "100%" }} />
@@ -84,7 +84,7 @@ const BurgerMenu = () => {
             exact="true"
             to="/ABOUT_US"
           >
-            About us
+            ABOUT US
           </NavLink>
         </li>
         <Divider style={{ backgroundColor: "#fff", width: "100%" }} />
@@ -96,7 +96,7 @@ const BurgerMenu = () => {
             exact="true"
             to="/ABOUT"
           >
-            About
+            ABOUT
           </NavLink>
         </li>
         <Divider style={{ backgroundColor: "#fff", width: "100%" }} />

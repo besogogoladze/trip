@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./header.css";
-import img from "../../../Images/img.png";
+import img from "../../../Images/Logo.png";
 
 function Nav() {
   return (
@@ -15,7 +15,7 @@ function Nav() {
             exact="true"
             to="/"
           >
-            Home
+            HOME
           </NavLink>
         </li>
         <li>
@@ -26,7 +26,7 @@ function Nav() {
             exact="true"
             to="/trip_page"
           >
-            Trip
+            TRIP
           </NavLink>
         </li>
         <NavLink exact="true" to="/">
@@ -40,7 +40,7 @@ function Nav() {
             exact="true"
             to="/ABOUT_US"
           >
-            About us
+            ABOUT US
           </NavLink>
         </li>
         <li>
@@ -51,7 +51,7 @@ function Nav() {
             exact="true"
             to="/ABOUT"
           >
-            About
+            ABOUT
           </NavLink>
         </li>
       </ul>

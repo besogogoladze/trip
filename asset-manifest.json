@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trip/static/css/main.9e2cbecb.css",
-    "main.js": "/trip/static/js/main.1b9ba85a.js",
+    "main.js": "/trip/static/js/main.b5ae5801.js",
     "static/css/269.82e2d6c6.chunk.css": "/trip/static/css/269.82e2d6c6.chunk.css",
     "static/js/269.0b6905a1.chunk.js": "/trip/static/js/269.0b6905a1.chunk.js",
     "static/css/97.4f61747f.chunk.css": "/trip/static/css/97.4f61747f.chunk.css",
@@ -9,10 +9,10 @@
     "static/js/452.63d19e66.chunk.js": "/trip/static/js/452.63d19e66.chunk.js",
     "static/js/408.6c1538ef.chunk.js": "/trip/static/js/408.6c1538ef.chunk.js",
     "static/media/portugal-douro-porto-croisieurope-slider-pli-shutterstock.jpg": "/trip/static/media/portugal-douro-porto-croisieurope-slider-pli-shutterstock.62f99affae10a9cabab8.jpg",
-    "static/media/Logo.png": "/trip/static/media/Logo.65e1812611e9405f0ecd.png",
+    "static/media/Logo2.png": "/trip/static/media/Logo2.af0d33f93a9103d0f0a8.png",
     "index.html": "/trip/index.html",
     "main.9e2cbecb.css.map": "/trip/static/css/main.9e2cbecb.css.map",
-    "main.1b9ba85a.js.map": "/trip/static/js/main.1b9ba85a.js.map",
+    "main.b5ae5801.js.map": "/trip/static/js/main.b5ae5801.js.map",
     "269.82e2d6c6.chunk.css.map": "/trip/static/css/269.82e2d6c6.chunk.css.map",
     "269.0b6905a1.chunk.js.map": "/trip/static/js/269.0b6905a1.chunk.js.map",
     "97.4f61747f.chunk.css.map": "/trip/static/css/97.4f61747f.chunk.css.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.9e2cbecb.css",
-    "static/js/main.1b9ba85a.js"
+    "static/js/main.b5ae5801.js"
   ]
 }

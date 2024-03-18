@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/312.414f604c.chunk.js","mappings":"iLAUA,QARA,WACE,OACEA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,aAIT,C","sources":["Pages/Trip/Trip.js"],"sourcesContent":["import React from 'react'\r\n\r\nfunction Trip() {\r\n  return (\r\n    <div>\r\n      Trip page\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default Trip\r\n"],"names":["_jsx","children"],"sourceRoot":""}

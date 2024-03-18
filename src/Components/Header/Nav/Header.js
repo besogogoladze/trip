@@ -38,7 +38,7 @@ function Nav() {
               return isActive ? "isActive" : "notActive";
             }}
             exact="true"
-            to="/ABOUT_US"
+            to="/about_us"
           >
             ABOUT US
           </NavLink>
@@ -49,9 +49,9 @@ function Nav() {
               return isActive ? "isActive" : "notActive";
             }}
             exact="true"
-            to="/ABOUT"
+            to="/ipi"
           >
-            ABOUT
+            IPI
           </NavLink>
         </li>
       </ul>

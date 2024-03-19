@@ -1,0 +1,7 @@
+.ipiSectionOneNews > a:hover {
+  text-decoration: underline;
+}
+#ipiSectionOneNews div > img:hover {
+  opacity: 40%;
+  cursor: pointer;
+}

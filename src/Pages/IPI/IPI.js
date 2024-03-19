@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import IPISectionOne from "./SectionOne/IPISectionOne";
 
 function IPI() {
   return (
     <div>
-      Page of IPI
+      <IPISectionOne />
     </div>
-  )
+  );
 }
 
-export default IPI
+export default IPI;

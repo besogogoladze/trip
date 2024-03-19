@@ -1,0 +1,6 @@
+.footerNavLink:hover {
+  color: #d33 !important;
+}
+#ipiLevel > a {
+  text-wrap: nowrap;
+}

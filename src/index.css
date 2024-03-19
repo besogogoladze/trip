@@ -18,12 +18,19 @@ code {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: unset;
+  color: #000;
+}
 
 .kodeMonoFont {
   font-family: "Kode Mono", monospace;
   font-optical-sizing: "auto";
   font-weight: "normal";
   font-style: "normal";
+}
+p {
+  font-size: larger;
 }
 
 @media only screen and (max-width: 900px) {

@@ -3,17 +3,17 @@
   justify-content: center;
   align-items: center;
 }
-ul {
+#Navigation ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0;
   width: 80%;
 }
-li {
+#Navigation li {
   list-style: none;
 }
-a {
+#Navigation a {
   text-decoration: unset;
   color: #fff;
 }
@@ -25,7 +25,7 @@ a {
   font-weight: bold;
   width: 100%;
   display: inline-block;
-  color: #fff;
+  color: #000;
 }
 .burgerMenuIsActive {
   font-size: 15px;

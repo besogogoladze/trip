@@ -1,43 +1,24 @@
-import React, { useRef } from "react";
-import Box from "@mui/material/Box";
-import SwipeableDrawer from "@mui/material/SwipeableDrawer";
-import Button from "@mui/material/Button";
-import List from "@mui/material/List";
+import * as React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
-import { Divider } from "@mui/material";
 import "../HeaderNav.css";
 import "../Nav/header.css";
 import img from "../../../Images/Logo2.png";
+import Box from "@mui/material/Box";
+import Drawer from "@mui/material/Drawer";
+import Button from "@mui/material/Button";
+import List from "@mui/material/List";
+import Divider from "@mui/material/Divider";
 
-const BurgerMenu = () => {
-  const [state, setState] = React.useState({
-    right: false,
-  });
-  const ref = useRef();
-  const toggleDrawer = (anchor, open) => (event) => {
-    if (
-      event &&
-      event.type === "keydown" &&
-      (event.key === "Tab" || event.key === "Shift")
-    ) {
-      return;
-    }
-    setState({ ...state, [anchor]: open });
+export default function BurgerMenu() {
+  const [open, setOpen] = React.useState(false);
+
+  const toggleDrawer = (newOpen) => () => {
+    setOpen(newOpen);
   };
 
-  const list = (anchor) => (
-    <Box
-      ref={ref}
-      style={{ backgroundColor: "#003" }}
-      sx={{
-        width: anchor === "top" || anchor === "bottom" ? "auto" : 250,
-        height: "100%",
-      }}
-      role="presentation"
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}
-    >
+  const DrawerList = (
+    <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <List
         id="BurgerNavigation"
         style={{
@@ -98,38 +79,28 @@ const BurgerMenu = () => {
               return isActive ? "burgerMenuIsActive" : "burgerMenuNotActive";
             }}
             exact="true"
-            to="/ABOUT"
+            to="/IPI"
           >
-            ABOUT
+            IPI
           </NavLink>
         </li>
         <Divider style={{ backgroundColor: "#fff", width: "100%" }} />
       </List>
     </Box>
   );
+
   return (
-    <div id="BurgerMenu">
-      {["right"].map((anchor) => (
-        <React.Fragment key={anchor}>
-          <Button
-            id="BurgerMenu"
-            style={{ color: "#fff" }}
-            onClick={toggleDrawer(anchor, true)}
-          >
-            <MenuIcon style={{ fontSize: "30px" }} />
-          </Button>
-          <SwipeableDrawer
-            anchor={anchor}
-            open={state[anchor]}
-            onClose={toggleDrawer(anchor, false)}
-            onOpen={toggleDrawer(anchor, true)}
-          >
-            {list(anchor)}
-          </SwipeableDrawer>
-        </React.Fragment>
-      ))}
+    <div>
+      <Button
+        id="BurgerMenu"
+        style={{ color: "#fff" }}
+        onClick={toggleDrawer(true)}
+      >
+        <MenuIcon style={{ fontSize: "30px" }} />
+      </Button>
+      <Drawer open={open} onClose={toggleDrawer(false)}>
+        {DrawerList}
+      </Drawer>
     </div>
   );
-};
-
-export default BurgerMenu;
+}

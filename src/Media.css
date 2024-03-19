@@ -14,10 +14,16 @@
   }
   .footer_up {
     flex-wrap: wrap;
-    justify-content: center !important;
-    align-items: center !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
   }
   .footer_up > div {
     padding: 20px;
+  }
+  .boockmarkIcon {
+    right: 20px !important;
+  }
+  .footerBackgroundImg {
+    background-position: left !important;
   }
 }

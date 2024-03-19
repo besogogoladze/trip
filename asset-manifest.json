@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/trip/static/css/main.e3e4ad13.css",
-    "main.js": "/trip/static/js/main.e2ed5d3f.js",
+    "main.css": "/trip/static/css/main.24858fc5.css",
+    "main.js": "/trip/static/js/main.5f67db8e.js",
     "static/css/269.82e2d6c6.chunk.css": "/trip/static/css/269.82e2d6c6.chunk.css",
     "static/js/269.0b6905a1.chunk.js": "/trip/static/js/269.0b6905a1.chunk.js",
     "static/css/241.c13892f8.chunk.css": "/trip/static/css/241.c13892f8.chunk.css",
     "static/js/241.01cc76a1.chunk.js": "/trip/static/js/241.01cc76a1.chunk.js",
     "static/js/312.414f604c.chunk.js": "/trip/static/js/312.414f604c.chunk.js",
+    "static/css/857.1b1611bd.chunk.css": "/trip/static/css/857.1b1611bd.chunk.css",
+    "static/js/857.991f6b87.chunk.js": "/trip/static/js/857.991f6b87.chunk.js",
     "static/js/408.3f7d482e.chunk.js": "/trip/static/js/408.3f7d482e.chunk.js",
     "static/media/Ye.jpeg": "/trip/static/media/Ye.3bcd115ba874c2030cc0.jpeg",
     "static/media/Besiki.JPEG": "/trip/static/media/Besiki.4a738f28bb9445ebb284.JPEG",
@@ -15,17 +17,19 @@
     "static/media/Logo2.png": "/trip/static/media/Logo2.af0d33f93a9103d0f0a8.png",
     "static/media/georgia.png": "/trip/static/media/georgia.5c951591247cfda70386.png",
     "index.html": "/trip/index.html",
-    "main.e3e4ad13.css.map": "/trip/static/css/main.e3e4ad13.css.map",
-    "main.e2ed5d3f.js.map": "/trip/static/js/main.e2ed5d3f.js.map",
+    "main.24858fc5.css.map": "/trip/static/css/main.24858fc5.css.map",
+    "main.5f67db8e.js.map": "/trip/static/js/main.5f67db8e.js.map",
     "269.82e2d6c6.chunk.css.map": "/trip/static/css/269.82e2d6c6.chunk.css.map",
     "269.0b6905a1.chunk.js.map": "/trip/static/js/269.0b6905a1.chunk.js.map",
     "241.c13892f8.chunk.css.map": "/trip/static/css/241.c13892f8.chunk.css.map",
     "241.01cc76a1.chunk.js.map": "/trip/static/js/241.01cc76a1.chunk.js.map",
     "312.414f604c.chunk.js.map": "/trip/static/js/312.414f604c.chunk.js.map",
+    "857.1b1611bd.chunk.css.map": "/trip/static/css/857.1b1611bd.chunk.css.map",
+    "857.991f6b87.chunk.js.map": "/trip/static/js/857.991f6b87.chunk.js.map",
     "408.3f7d482e.chunk.js.map": "/trip/static/js/408.3f7d482e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3e4ad13.css",
-    "static/js/main.e2ed5d3f.js"
+    "static/css/main.24858fc5.css",
+    "static/js/main.5f67db8e.js"
   ]
 }

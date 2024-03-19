@@ -5,4 +5,19 @@
   #BurgerMenu {
     display: block !important;
   }
+  .footer_down {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 30px;
+    margin-top: 20px !important;
+  }
+  .footer_up {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .footer_up > div {
+    padding: 20px;
+  }
 }

@@ -36,7 +36,7 @@ code {
   .groupeMembers_img_p {
     flex-direction: column;
   }
-  .groupeMembers_img_p img {
+  .groupeMembers_img_p > img {
     width: 40% !important;
     align-self: center;
   }

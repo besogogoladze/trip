@@ -5,3 +5,6 @@
   opacity: 40%;
   cursor: pointer;
 }
+.ipiSectionOneNews > p {
+  font-size: 12.5px;
+}

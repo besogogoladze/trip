@@ -1,3 +1,25 @@
+@media only screen and (max-width: 840px) {
+  .ipiSectionTwo {
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  #ipiSectionTwoTestimony,
+  #ipiSectionTwoDiscoverSchool {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .ipiSectionOneNewsDiv {
+    gap: 50px !important;
+  }
+  .ipiSectionOneNewsDivs {
+    width: 100% !important;
+  }
+  .ipiSectionOneNewsDivs img {
+    max-width: unset !important;
+  }
+}
 @media only screen and (max-width: 540px) {
   #Navigation {
     display: none !important;

@@ -158,15 +158,16 @@ function IPISectionOne() {
             ></div>
           </div>
           <div
+            className="ipiSectionOneNewsDiv"
             style={{
               display: "flex",
               flexWrap: "wrap",
               justifyContent: "space-around",
-              alignItems: "center",
+              alignItems: "flex-start",
               gap: "10px",
             }}
           >
-            <div style={{ width: "255px" }}>
+            <div className="ipiSectionOneNewsDivs" style={{ width: "255px" }}>
               <img
                 style={{ maxWidth: "270px", width: "100%" }}
                 src="https://www.ipi-ecoles.com/wp-content/uploads/2020/12/jpo-toulouse-05-dec.jpg"
@@ -186,7 +187,7 @@ function IPISectionOne() {
                 </NavLink>
               </div>
             </div>
-            <div style={{ width: "255px" }}>
+            <div className="ipiSectionOneNewsDivs" style={{ width: "255px" }}>
               <img
                 style={{ maxWidth: "270px", width: "100%" }}
                 src="https://www.ipi-ecoles.com/wp-content/uploads/2023/03/header-JD-Tlse-270x102.png"
@@ -196,7 +197,9 @@ function IPISectionOne() {
                 className="ipiSectionOneNews"
                 style={{ display: "flex", flexDirection: "column" }}
               >
-                <h4 style={{ color: "#d33" }}>OPEN DOORS DAY</h4>
+                <h4 style={{ color: "#d33" }}>
+                  JOB DATING ALTERNATION 3RD YEAR & MASTERS
+                </h4>
                 <p>{text2}</p>
                 <NavLink
                   to="https://www.ipi-ecoles.com/job-dating-alternance-3eme-annee-masteres/"
@@ -206,7 +209,7 @@ function IPISectionOne() {
                 </NavLink>
               </div>
             </div>
-            <div style={{ width: "255px" }}>
+            <div className="ipiSectionOneNewsDivs" style={{ width: "255px" }}>
               <img
                 style={{ maxWidth: "270px", width: "100%" }}
                 src="https://www.ipi-ecoles.com/wp-content/uploads/2022/01/IPI_TLSE_AFF_AGILITE_PAR_LE_JEU_IMG_ACTUS_SITE_WEB-270x102.png"
@@ -216,7 +219,9 @@ function IPISectionOne() {
                 className="ipiSectionOneNews"
                 style={{ display: "flex", flexDirection: "column" }}
               >
-                <h4 style={{ color: "#d33" }}>OPEN DOORS DAY</h4>
+                <h4 style={{ color: "#d33" }}>
+                  AGILE DAY – 11TH EDITION – FEBRUARY 7, 2024
+                </h4>
                 <p>{text3}</p>
                 <NavLink
                   to="https://www.ipi-ecoles.com/journee-agile/"
@@ -226,7 +231,7 @@ function IPISectionOne() {
                 </NavLink>
               </div>
             </div>
-            <div style={{ width: "255px" }}>
+            <div className="ipiSectionOneNewsDivs" style={{ width: "255px" }}>
               <img
                 style={{ maxWidth: "270px", width: "100%" }}
                 src="https://www.ipi-ecoles.com/wp-content/uploads/2016/01/Site_IPI_034-270x102.jpg"
@@ -236,7 +241,7 @@ function IPISectionOne() {
                 className="ipiSectionOneNews"
                 style={{ display: "flex", flexDirection: "column" }}
               >
-                <h4 style={{ color: "#d33" }}>OPEN DOORS DAY</h4>
+                <h4 style={{ color: "#d33" }}>APPLY TO THE IPI!</h4>
                 <p>{text4}</p>
                 <NavLink
                   to="https://www.ipi-ecoles.com/candidature-ecole-ipi-toulouse/"

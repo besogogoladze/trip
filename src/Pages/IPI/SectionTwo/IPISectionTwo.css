@@ -1,0 +1,36 @@
+.ipiSectionTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10%;
+}
+.ipiSectionTwo p {
+  font-size: 15px;
+}
+#panel1-header svg {
+  color: #000;
+  font-size: 50px;
+}
+#panel1-header {
+  padding: 0;
+}
+#panel1-header .MuiAccordionSummary-expandIconWrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#panel1-header:hover h3,
+#panel1-header:hover svg {
+  color: #d33;
+}
+#ipiSectionTwoAccordion {
+  border: none;
+  box-shadow: unset;
+  position: relative;
+}
+#ipiSectionTwoAccordion::before {
+  display: none;
+}
+#ipiSectionTwoTestimony a:hover {
+  text-decoration: underline;
+}

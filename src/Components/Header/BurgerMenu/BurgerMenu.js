@@ -14,11 +14,15 @@ export default function BurgerMenu() {
   const [open, setOpen] = React.useState(false);
 
   const toggleDrawer = (newOpen) => () => {
-    setOpen(newOpen);
+    if (open === false) {
+      setOpen(true);
+    } else {
+      setOpen(false);
+    }
   };
 
   const DrawerList = (
-    <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
+    <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer()}>
       <List
         id="BurgerNavigation"
         style={{
@@ -30,14 +34,16 @@ export default function BurgerMenu() {
           flexDirection: "column",
         }}
       >
-        <NavLink exact="true" to="/">
-          <img
-            style={{ width: "150px", marginBottom: "50px" }}
-            src={img}
-            alt="img"
-          />
-        </NavLink>
-        <li style={{ width: "100%" }}>
+        <li style={{ width: "100%" }} onClick={toggleDrawer()}>
+          <NavLink exact="true" to="/">
+            <img
+              style={{ width: "150px", marginBottom: "50px" }}
+              src={img}
+              alt="img"
+            />
+          </NavLink>
+        </li>
+        <li style={{ width: "100%" }} onClick={toggleDrawer()}>
           <NavLink
             className={({ isActive }) => {
               return isActive ? "burgerMenuIsActive" : "burgerMenuNotActive";
@@ -49,7 +55,7 @@ export default function BurgerMenu() {
           </NavLink>
         </li>
         <Divider style={{ backgroundColor: "#fff", width: "100%" }} />
-        <li style={{ width: "100%" }}>
+        <li style={{ width: "100%" }} onClick={toggleDrawer()}>
           <NavLink
             className={({ isActive }) => {
               return isActive ? "burgerMenuIsActive" : "burgerMenuNotActive";
@@ -61,7 +67,7 @@ export default function BurgerMenu() {
           </NavLink>
         </li>
         <Divider style={{ backgroundColor: "#fff", width: "100%" }} />
-        <li style={{ width: "100%" }}>
+        <li style={{ width: "100%" }} onClick={toggleDrawer()}>
           <NavLink
             className={({ isActive }) => {
               return isActive ? "burgerMenuIsActive" : "burgerMenuNotActive";
@@ -73,7 +79,7 @@ export default function BurgerMenu() {
           </NavLink>
         </li>
         <Divider style={{ backgroundColor: "#fff", width: "100%" }} />
-        <li style={{ width: "100%" }}>
+        <li style={{ width: "100%" }} onClick={toggleDrawer()}>
           <NavLink
             className={({ isActive }) => {
               return isActive ? "burgerMenuIsActive" : "burgerMenuNotActive";

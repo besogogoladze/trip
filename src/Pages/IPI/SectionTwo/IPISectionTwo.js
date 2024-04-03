@@ -105,8 +105,8 @@ function IPISectionTwo() {
                   width: "50%",
                   padding: "15px 10px",
                   fontSize: "18px",
-                  backgroundColor: "#d33",
-                  border: "1px solid #d33",
+                  backgroundColor: "#5b1514",
+                  border: "1px solid #5b1514",
                 }}
                 to="https://www.my-admission.com/formulaire.aspx?marque=IPI_T&id=1000&axeptio_token=vfqd8mv4hgrktvyov6kl0o&_gl=1*qr9vee*_ga*MTIyNjA4NTcxNS4xNzA5MDI0MDM2*_ga_CX6HW1HNV1*MTcxMjA3OTcxNC4xMC4xLjE3MTIwODEzMjcuNjAuMC4w"
               >

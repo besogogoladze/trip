@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkblog_porto_by_insestos=self.webpackChunkblog_porto_by_insestos||[]).push([[312],{312:(s,e,o)=>{o.r(e),o.d(e,{default:()=>n});o(5043);var t=o(579);const n=function(){return(0,t.jsx)("div",{children:"Trip page"})}}}]);
-//# sourceMappingURL=312.414f604c.chunk.js.map

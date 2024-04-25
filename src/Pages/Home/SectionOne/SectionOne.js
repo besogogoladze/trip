@@ -83,7 +83,7 @@ function SectionOne() {
             alignSelf: "center",
           }}
           exact="true"
-          to="/ABOUT_US"
+          to="/trip_page"
         >
           <Button color="secondary" variant="outlined" size="medium">
             Click here🖐️

@@ -19,15 +19,15 @@ function SectionOne() {
         style={{ display: "flex", flexDirection: "column", gap: "10px" }}
       >
         <p className="kodeMonoFont">
-          We are delighted to present to you our internship trip to Barcelona
-          where we had the opportunity to take courses in English on
-          cybersecurity. For 10 days, we had the opportunity to discover this
-          magnificent city while learning about a subject that is increasingly
-          important in our connected world. This trip allowed me to acquire new
-          skills and knowledge in the field of cybersecurity, as well as to meet
-          people from different backgrounds and to discuss our experiences. In
-          this presentation, we are going to tell you about our experience in
-          Barcelona and what we learned during this cybersecurity internship.
+          We are happy to present our trip to Porto, where we can see the
+          possibility of taking English language courses to improve our 4 skills
+          (reading, writing, listening and speaking) and chances to study and
+          communicate with other international friends. We will be in Porto for
+          10 days to visit this magnificent city. We hope that this trip will
+          allow us to discover and acquire new skills and knowledge in the field
+          of cyber security. We are going to share and talk about our
+          experiences in Porto and what we learned and observed during this
+          Porto trip in this website.
         </p>
         <h3
           className="kodeMonoFont"

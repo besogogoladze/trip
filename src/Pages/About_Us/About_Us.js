@@ -125,7 +125,7 @@ function About_Us() {
               <img src={Burma} style={{ width: "20px" }} alt={ImgBesiki} />
               (Burma). Now, I am studying Bachelor of information Technology in
               IPI Toulouse. Because I’m really interested in coding and
-              developing Website, Application. That’s why I choose this major in
+              developing Website, Application. That’s why I chose this major in
               IPI Toulouse. I play football and chess with my friend, in my free
               time. I really like to read books about military, history and some
               novels. I want to become software engineer In future, when I

@@ -9,6 +9,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body::-webkit-scrollbar {
+  width: 14px;
+}
+body::-webkit-scrollbar-track {
+  background: #fff;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #d33;
+  border-radius: 20px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -32,19 +42,6 @@ a {
 p {
   font-size: larger;
 }
-
-@media only screen and (max-width: 900px) {
-  .groupeMembers_li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .groupeMembers_img_p {
-    flex-direction: column;
-  }
-  .groupeMembers_img_p > img {
-    width: 40% !important;
-    align-self: center;
-  }
+.EZDrawer label {
+  z-index: 10000 !important;
 }

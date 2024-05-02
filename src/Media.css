@@ -1,3 +1,18 @@
+@media only screen and (max-width: 900px) {
+  .groupeMembers_li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .groupeMembers_img_p {
+    flex-direction: column;
+  }
+  .groupeMembers_img_p > img {
+    width: 40% !important;
+    align-self: center;
+  }
+}
 @media only screen and (max-width: 840px) {
   .ipiSectionTwo {
     flex-direction: column;
@@ -29,6 +44,7 @@
   }
   #BurgerMenu {
     display: block !important;
+    width: 100%;
   }
   .footer_down {
     flex-wrap: wrap;
@@ -50,5 +66,14 @@
   }
   .footerBackgroundImg {
     background-position: left !important;
+  }
+
+  /* .modalClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .modalBoxClass {
+    width: 80% !important;
   }
 }

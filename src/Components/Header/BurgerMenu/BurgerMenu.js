@@ -19,15 +19,27 @@ export default function BurgerMenu() {
   };
 
   return (
-    <div>
-      <Button id="BurgerMenu" style={{ color: "#fff" }} onClick={toggleDrawer}>
-        <MenuIcon style={{ fontSize: "30px" }} />
-      </Button>
+    <div id="BurgerMenu">
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          width: "62%",
+        }}
+      >
+        <Button style={{ color: "#fff" }} onClick={toggleDrawer}>
+          <MenuIcon style={{ fontSize: "30px" }} />
+        </Button>
+        <NavLink exact="true" to="/">
+          <img style={{ width: "80px" }} src={img} alt="img" />
+        </NavLink>
+      </div>
       <Drawer
         open={isOpen}
         onClose={toggleDrawer}
         direction="left"
-        style={{ zIndex: "10000" }}
+        style={{ zIndex: "100000" }}
       >
         <Box sx={{ width: 250 }} role="presentation">
           <List

@@ -19,6 +19,9 @@
   .ipiSectionOneNewsDivs img {
     max-width: unset !important;
   }
+  .footerPanda {
+    left: 10px !important;
+  }
 }
 @media only screen and (max-width: 540px) {
   #Navigation {

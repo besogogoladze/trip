@@ -6,10 +6,11 @@ import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import SmartphoneIcon from "@mui/icons-material/Smartphone";
 import EmailIcon from "@mui/icons-material/Email";
 import "./footer.css";
+import panda from "../../Images/panda-print-baby.png";
 
 function Footer() {
   return (
-    <div>
+    <div style={{ marginTop: "150px" }}>
       <div
         style={{
           width: "100%",
@@ -27,6 +28,19 @@ function Footer() {
             color: "#000",
           }}
           className="boockmarkIcon"
+        />
+        <img
+          style={{
+            position: "absolute",
+            top: "-110px",
+            left: "100px",
+            fontSize: "60px",
+            color: "#000",
+            width: "100px",
+          }}
+          className="boockmarkIcon footerPanda"
+          src={panda}
+          alt="Error"
         />
       </div>
       <div
@@ -82,6 +96,7 @@ function Footer() {
                     display: "flex",
                     justifyContent: "flex-start",
                     alignItems: "center",
+                    width: "fit-content",
                   }}
                   className="footerNavLink"
                 >
@@ -96,6 +111,7 @@ function Footer() {
                     display: "flex",
                     justifyContent: "flex-start",
                     alignItems: "center",
+                    width: "fit-content",
                   }}
                   href="mailto:jmbenito@groupe-igs.fr"
                   className="footerNavLink"
@@ -109,12 +125,13 @@ function Footer() {
                     display: "flex",
                     justifyContent: "flex-start",
                     alignItems: "center",
+                    width: "fit-content",
                   }}
-                  href="tel:+33537041033"
+                  href="tel:+33531087000"
                   className="footerNavLink"
                 >
                   <SmartphoneIcon style={{ color: "#d33" }} />
-                  <p style={{ marginLeft: "10px" }}>05 37 04 10 33</p>
+                  <p style={{ marginLeft: "10px" }}>05 31 08 70 00</p>
                 </a>
               </div>
             </div>

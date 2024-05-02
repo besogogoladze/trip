@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "@mui/material";
 import Button from "@mui/material/Button";
 import { NavLink } from "react-router-dom";
+import pandaIpi from "../../../Images/panda-ipi.gif";
 function SectionOne() {
   return (
     <div
@@ -29,6 +30,17 @@ function SectionOne() {
           experiences in Porto and what we learned and observed during this
           Porto trip in this website.
         </p>
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            marginTop: "60px",
+          }}
+        >
+          <img style={{ width: "25%" }} src={pandaIpi} alt="Error" />
+        </div>
         <h3
           className="kodeMonoFont"
           style={{ fontStyle: "italic", marginLeft: "20%", marginTop: "60px" }}
@@ -85,7 +97,11 @@ function SectionOne() {
           exact="true"
           to="/trip_page"
         >
-          <Button color="secondary" variant="outlined" size="medium">
+          <Button
+            style={{ color: "#d33", borderColor: "#d33" }}
+            variant="outlined"
+            size="medium"
+          >
             Click here🖐️
           </Button>
         </NavLink>

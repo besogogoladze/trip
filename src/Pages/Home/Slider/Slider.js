@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
-import slide_1 from "../../../Images/portugal-douro-porto-croisieurope-slider-pli-shutterstock.jpg";
-import slide_2 from "../../../Images/portugal-douro-porto-croisieurope-slider-pli-shutterstock.jpg";
+import slide_1 from "../../../Images/slider1.jpg";
+import slide_2 from "../../../Images/slider2.png";
+import slide_3 from "../../../Images/slider3.jpg";
+import slide_4 from "../../../Images/slider4.png";
 import Carousel from "react-elastic-carousel";
 import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOutlined";
 import ArrowCircleLeftOutlinedIcon from "@mui/icons-material/ArrowCircleLeftOutlined";
@@ -46,7 +48,8 @@ function Slider() {
           >
             <ArrowCircleLeftOutlinedIcon
               style={{
-                fontSize: "40px",
+                fontSize: "60px",
+                color: "#d33",
               }}
             />
           </Button>
@@ -59,14 +62,17 @@ function Slider() {
             showArrows={false}
             enableSwipe={false}
             enableMouseSwipe={false}
-            // onChange={(currentItem) =>
-            //   currentItem.index !== carousel.current.state.pages.length - 1
-            //     ? carousel.current.goTo(currentItem.index + 1)
-            //     : carousel.current.goTo(0)
+            // onChange={() =>
+            //   carousel.current.state.activeIndex !==
+            //   carousel.current.state.pages.length - 1
+            //     ? setTimeout(() => carousel.current.slideNext(), 2500)
+            //     : setTimeout(() => carousel.current.goTo(0), 2500)
             // }
           >
-            <img style={{ width: "100%" }} src={slide_1} alt="Img Error" />
             <img style={{ width: "100%" }} src={slide_2} alt="Img Error" />
+            <img style={{ width: "100%" }} src={slide_1} alt="Img Error" />
+            <img style={{ width: "100%" }} src={slide_3} alt="Img Error" />
+            <img style={{ width: "100%" }} src={slide_4} alt="Img Error" />
           </Carousel>
           <Button
             ref={ArrowStyle}
@@ -85,7 +91,8 @@ function Slider() {
           >
             <ArrowCircleRightOutlinedIcon
               style={{
-                fontSize: "40px",
+                fontSize: "60px",
+                color: "#d33",
               }}
             />
           </Button>

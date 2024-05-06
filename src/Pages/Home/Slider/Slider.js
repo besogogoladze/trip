@@ -39,6 +39,8 @@ function Slider() {
               left: "20px",
               top: "40%",
               zIndex: "1000",
+              backgroundColor: "#fff",
+              opacity: "70%",
             }}
             onClick={() =>
               carousel.current.state.activeIndex !== 0
@@ -50,8 +52,7 @@ function Slider() {
               style={{
                 fontSize: "60px",
                 color: "#d33",
-                backgroundColor: "#fff",
-                opacity: "70%",
+                opacity: "100%",
               }}
             />
           </Button>
@@ -83,6 +84,8 @@ function Slider() {
               right: "20px",
               top: "40%",
               color: "#000 !important",
+              backgroundColor: "#fff",
+              opacity: "70%",
             }}
             onClick={() =>
               carousel.current.state.activeIndex !==
@@ -95,8 +98,7 @@ function Slider() {
               style={{
                 fontSize: "60px",
                 color: "#d33",
-                backgroundColor: "#fff",
-                opacity: "70%",
+                opacity: "100%",
               }}
             />
           </Button>

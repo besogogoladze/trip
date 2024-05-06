@@ -28,6 +28,16 @@ code {
   margin: 0;
   padding: 0;
 }
+::-moz-selection {
+  /* Code for Firefox */
+  color: #d33;
+  background: #003;
+}
+
+::selection {
+  color: #d33;
+  background: #003;
+}
 a {
   text-decoration: unset;
   color: #000;

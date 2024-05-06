@@ -19,6 +19,7 @@ function Slider() {
   useEffect(() => {
     setIsLoading(false);
   }, []);
+
   return (
     <>
       {isLoading ? (
@@ -39,8 +40,6 @@ function Slider() {
               left: "20px",
               top: "40%",
               zIndex: "1000",
-              backgroundColor: "#fff",
-              opacity: "70%",
             }}
             onClick={() =>
               carousel.current.state.activeIndex !== 0
@@ -52,7 +51,8 @@ function Slider() {
               style={{
                 fontSize: "60px",
                 color: "#d33",
-                opacity: "100%",
+                backgroundColor: "#fff",
+                opacity: "70%",
               }}
             />
           </Button>
@@ -60,11 +60,12 @@ function Slider() {
             enableTilt={true}
             ref={carousel}
             itemsToShow={1}
-            // enableAutoPlay={true}
-            // autoPlaySpeed={2500}
+            itemsToScroll={1}
             showArrows={false}
             enableSwipe={false}
             enableMouseSwipe={false}
+            // enableAutoPlay={true}
+            // autoPlaySpeed={2500}
             // onChange={() =>
             //   carousel.current.state.activeIndex !==
             //   carousel.current.state.pages.length - 1
@@ -84,8 +85,6 @@ function Slider() {
               right: "20px",
               top: "40%",
               color: "#000 !important",
-              backgroundColor: "#fff",
-              opacity: "70%",
             }}
             onClick={() =>
               carousel.current.state.activeIndex !==
@@ -98,7 +97,8 @@ function Slider() {
               style={{
                 fontSize: "60px",
                 color: "#d33",
-                opacity: "100%",
+                backgroundColor: "#fff",
+                opacity: "70%",
               }}
             />
           </Button>

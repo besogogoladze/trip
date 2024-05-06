@@ -50,6 +50,8 @@ function Slider() {
               style={{
                 fontSize: "60px",
                 color: "#d33",
+                backgroundColor: "#fff",
+                opacity: "70%",
               }}
             />
           </Button>
@@ -93,6 +95,8 @@ function Slider() {
               style={{
                 fontSize: "60px",
                 color: "#d33",
+                backgroundColor: "#fff",
+                opacity: "70%",
               }}
             />
           </Button>

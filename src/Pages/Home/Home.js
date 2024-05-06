@@ -7,7 +7,6 @@ import Modal from "@mui/material/Modal";
 import modalImg from "../../Images/ipi-guide-metier-popup.png";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import { Link } from "react-router-dom";
-import zIndex from "@mui/material/styles/zIndex";
 
 const style = {
   position: "absolute",
@@ -64,37 +63,25 @@ function Home() {
   // React.useEffect(() => {
   //   modalStorage === null ? setOpen(true) : setOpen(false);
   // }, []);
-  const [expired, setExpired] = useState(false);
-  const [clicked, setClicked] = useState(false);
+
+  const [currentTime, setCurrentTime] = useState(new Date().getTime());
+  const [getTime, setGetTime] = useState(null);
   const [expirationTime, setExpirationTime] = useState(null);
 
   useEffect(() => {
-    let timeoutId;
-
-    if (clicked && expirationTime && modalStorage) {
-      const currentTime = new Date().getTime();
-      const timeDifference = expirationTime - currentTime;
-
-      if (timeDifference > 0) {
-        timeoutId = setTimeout(() => {
-          setExpired(true);
-          localStorage.removeItem("modal");
-        }, timeDifference);
-      } else {
-        setExpired(true);
-      }
+    const expiration = currentTime + 24 * 60 * 60 * 1000;
+    setExpirationTime(expiration);
+    const timeDifference = currentTime - expirationTime;
+    if (timeDifference > 0) {
+      localStorage.removeItem("modal");
     }
     modalStorage === null ? setOpen(true) : setOpen(false);
-
-    return () => clearTimeout(timeoutId);
   }, []);
+  console.log(getTime);
 
   const handleClick = () => {
     setOpen(false);
-    const now = new Date();
-    const expiration = new Date(now.getTime() + 1 * 1000);
-    setExpirationTime(expiration.getTime());
-    setClicked(true);
+    setGetTime(new Date().getTime());
     setModalStorage(localStorage.setItem("modal", true));
   };
   return (

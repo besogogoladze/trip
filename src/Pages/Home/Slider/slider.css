@@ -1,3 +1,9 @@
 .rec-slider-container {
   margin: 0 !important;
 }
+.carouselArrowButton {
+  display: none;
+}
+.carouselDiv:hover .carouselArrowButton {
+  display: block;
+}

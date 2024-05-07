@@ -33,8 +33,13 @@ function Slider() {
           ></Box>
         </div>
       ) : (
-        <div style={{ display: "flex", position: "relative", width: "100%" }}>
+        <div
+          className="carouselDiv"
+          style={{ display: "flex", position: "relative", width: "100%" }}
+        >
           <Button
+            className="carouselArrowButton"
+            ref={ArrowStyle}
             style={{
               position: "absolute",
               left: "20px",
@@ -50,9 +55,7 @@ function Slider() {
             <ArrowCircleLeftOutlinedIcon
               style={{
                 fontSize: "60px",
-                color: "#d33",
-                backgroundColor: "#fff",
-                opacity: "70%",
+                color: "snow",
               }}
             />
           </Button>
@@ -79,6 +82,7 @@ function Slider() {
             <img style={{ width: "100%" }} src={slide_4} alt="Img Error" />
           </Carousel>
           <Button
+            className="carouselArrowButton"
             ref={ArrowStyle}
             style={{
               position: "absolute",
@@ -96,9 +100,7 @@ function Slider() {
             <ArrowCircleRightOutlinedIcon
               style={{
                 fontSize: "60px",
-                color: "#d33",
-                backgroundColor: "#fff",
-                opacity: "70%",
+                color: "snow",
               }}
             />
           </Button>

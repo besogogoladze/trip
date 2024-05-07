@@ -25,45 +25,6 @@ function Home() {
   const [modalStorage, setModalStorage] = React.useState(
     localStorage.getItem("modal")
   );
-  // const [expirationTime, setExpirationTime] = React.useState(null);
-  // // const handleOpen = () => setOpen(true);
-  // const handleClose = () => {
-  //   setOpen(false);
-  //   setModalStorage(localStorage.setItem("modal", true));
-  //   const now = new Date();
-  //   const expiration = new Date(now.getTime()).getMinutes + 10;
-  //   setExpirationTime(expiration);
-  //   const expirationTime = 10;
-  //   const currentTime = new Date().getSeconds();
-  //   console.log(expiration, expirationTime, currentTime);
-  //   const timeDifference = expirationTime - currentTime;
-  //   console.log(timeDifference);
-  //   let timeoutId;
-  //   if (timeDifference > 0) {
-  //     timeoutId = setTimeout(() => {
-  //       localStorage.removeItem("modal");
-  //     }, expirationTime);
-  //   }
-
-  //   return () => {
-  //     clearTimeout(timeoutId);
-  //   };
-  // };
-  // console.log(expirationTime);
-  // const [data, setData] = React.useState();
-
-  // React.useEffect(() => {
-  //   fetch("http://sql11.freesqldatabase.com/companies")
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       setData(data);
-  //       console.log(data)
-  //     });
-  // }, []);
-  // React.useEffect(() => {
-  //   modalStorage === null ? setOpen(true) : setOpen(false);
-  // }, []);
-
   const [currentTime, setCurrentTime] = useState(new Date().getTime());
   const [getTime, setGetTime] = useState(null);
   const [expirationTime, setExpirationTime] = useState(null);
@@ -86,12 +47,6 @@ function Home() {
   };
   return (
     <div>
-      {/* {data?.map((i, index) => (
-        <div key={index}>
-          <p>{i.name}</p>
-          <p>{i.address}</p>
-        </div>
-      ))} */}
       {!modalStorage && (
         <Modal
           open={open}

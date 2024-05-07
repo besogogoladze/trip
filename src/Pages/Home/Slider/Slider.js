@@ -54,9 +54,11 @@ function Slider() {
           >
             <ArrowCircleLeftOutlinedIcon
               className="carouselArrowIcons"
+              style={{ fontSize: "60px" }}
             />
           </Button>
           <Carousel
+            id="carousel"
             enableTilt={true}
             ref={carousel}
             itemsToShow={1}
@@ -96,6 +98,7 @@ function Slider() {
           >
             <ArrowCircleRightOutlinedIcon
               className="carouselArrowIcons"
+              style={{ fontSize: "60px" }}
             />
           </Button>
         </div>

@@ -24,7 +24,7 @@
     width: 100% !important;
   }
   .carouselArrowIcons {
-    font-size: 40px;
+    font-size: 40px !important;
   }
 }
 @media only screen and (max-width: 650px) {
@@ -71,16 +71,13 @@
   .footerBackgroundImg {
     background-position: left !important;
   }
-
-  /* .modalClass {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
   .modalBoxClass {
     width: 80% !important;
   }
   .pandaIpi {
     width: 50%;
+  }
+  .rec-item-wrapper {
+    height: 180px !important;
   }
 }

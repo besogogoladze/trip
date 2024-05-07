@@ -38,7 +38,6 @@ function Home() {
     }
     modalStorage === null ? setOpen(true) : setOpen(false);
   }, []);
-  console.log(getTime);
 
   const handleClick = () => {
     setOpen(false);

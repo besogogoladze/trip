@@ -11,6 +11,21 @@ import Burma from "../../Images/Burma.png";
 import Senegal from "../../Images/Senegal.png";
 
 function About_Us() {
+  // let getYear = new Date().getFullYear();
+  // let getMonth = new Date().getMonth();
+  // let getDate = new Date().getDate();
+  // let besikiAge = getYear - 1996;
+  // if (getMonth <= 8 || getDate < 29) {
+  //   besikiAge = besikiAge - 1;
+  // }
+  // let adjaAge = getYear - 2004;
+  // if (getMonth <= 5 || getDate < 24) {
+  //   adjaAge = adjaAge - 1;
+  // }
+  // let yeAge = getYear - 2001;
+  // if (getMonth <= 5 || getDate < 24) {
+  //   yeAge = yeAge - 1;
+  // }
   return (
     <Container
       style={{
@@ -54,8 +69,8 @@ function About_Us() {
           >
             <img style={{ width: "200px" }} src={Besiki} alt={ImgBesiki} />
             <p className="kodeMonoFont">
-              Hello, my name is Besiki Gogoladze. I'm 27 years old. I'm from
-              Georgia{" "}
+              Hello, my name is Besiki Gogoladze. I'm 27 years old. I'm
+              from Georgia{" "}
               <img
                 src={Georgia}
                 style={{ width: "20px" }}
@@ -64,8 +79,7 @@ function About_Us() {
               . I'm a student in IPI Computer Science. My goal is to become a
               professional developer of web and web mobile. also, i am
               interested in computers and Ai. I have been a rugby player for 12
-              years and i'm still a professional rugby player. My inspiration
-              words in life: "You will do everything if you really want it!".
+              years and i'm still a professional rugby player.
             </p>
           </div>
         </li>
@@ -89,7 +103,8 @@ function About_Us() {
           >
             <img style={{ width: "200px" }} src={Adja} alt={ImgBesiki} />
             <p className="kodeMonoFont">
-              My name is Adja Ndiaye, I'm 19 years old, and I'm from Senegal{" "}
+              My name is Adja Ndiaye, I'm 19 years old, and I'm from
+              Senegal{" "}
               <img src={Senegal} style={{ width: "20px" }} alt={ImgBesiki} />.
               Currently, I'm a student in computer science at IPI Toulouse,
               which is part of the IGS groupe. I'm really into technology, and
@@ -120,8 +135,8 @@ function About_Us() {
           >
             <img style={{ width: "200px" }} src={Ye} alt={ImgBesiki} />
             <p className="kodeMonoFont">
-              Hi Everybody, My name is Ye Wint Hlaing. I am 22 years olds. I am
-              from Myanmar{" "}
+              Hi Everybody, My name is Ye Wint Hlaing. I am 22 years olds.
+              I am from Myanmar{" "}
               <img src={Burma} style={{ width: "20px" }} alt={ImgBesiki} />
               (Burma). Now, I am studying Bachelor of information Technology in
               IPI Toulouse. Because I’m really interested in coding and

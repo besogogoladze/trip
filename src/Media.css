@@ -23,6 +23,9 @@
   #ipiSectionTwoDiscoverSchool {
     width: 100% !important;
   }
+  .carouselArrowIcons {
+    font-size: 40px;
+  }
 }
 @media only screen and (max-width: 650px) {
   .ipiSectionOneNewsDiv {

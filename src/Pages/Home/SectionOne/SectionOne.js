@@ -108,7 +108,7 @@ function SectionOne() {
                 justifyContent: "center",
               }}
             >
-              <h3 style={{ textTransform: "uppercase" }}>
+              <h3 style={{ textTransform: "uppercase", textAlign:'center' }}>
                 See more about Web Development
               </h3>
             </div>

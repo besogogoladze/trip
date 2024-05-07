@@ -7,3 +7,7 @@
 .carouselDiv:hover .carouselArrowButton {
   display: block;
 }
+.carouselArrowIcons {
+  font-size: 60px;
+  color: snow;
+}

@@ -53,10 +53,7 @@ function Slider() {
             }
           >
             <ArrowCircleLeftOutlinedIcon
-              style={{
-                fontSize: "60px",
-                color: "snow",
-              }}
+              className="carouselArrowIcons"
             />
           </Button>
           <Carousel
@@ -98,10 +95,7 @@ function Slider() {
             }
           >
             <ArrowCircleRightOutlinedIcon
-              style={{
-                fontSize: "60px",
-                color: "snow",
-              }}
+              className="carouselArrowIcons"
             />
           </Button>
         </div>

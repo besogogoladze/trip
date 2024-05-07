@@ -8,6 +8,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import pandaIpi from "../../../Images/panda-ipi.gif";
+
 function SectionOne() {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -49,7 +50,7 @@ function SectionOne() {
             marginTop: "60px",
           }}
         >
-          <img style={{ width: "25%" }} src={pandaIpi} alt="Error" />
+          <img className="pandaIpi" src={pandaIpi} alt="Error" />
         </div>
         <h3
           className="kodeMonoFont"

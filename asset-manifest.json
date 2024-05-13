@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/trip/static/css/main.86f23870.css",
-    "main.js": "/trip/static/js/main.1f02bf0a.js",
-    "static/css/681.c013246a.chunk.css": "/trip/static/css/681.c013246a.chunk.css",
-    "static/js/681.f19cdf23.chunk.js": "/trip/static/js/681.f19cdf23.chunk.js",
+    "main.js": "/trip/static/js/main.6c6db28d.js",
+    "static/css/287.d77ce518.chunk.css": "/trip/static/css/287.d77ce518.chunk.css",
+    "static/js/287.f2fbdb2e.chunk.js": "/trip/static/js/287.f2fbdb2e.chunk.js",
     "static/css/241.c13892f8.chunk.css": "/trip/static/css/241.c13892f8.chunk.css",
     "static/js/241.a0c4b640.chunk.js": "/trip/static/js/241.a0c4b640.chunk.js",
     "static/js/312.19b43115.chunk.js": "/trip/static/js/312.19b43115.chunk.js",
@@ -11,7 +11,7 @@
     "static/js/686.f4bf6548.chunk.js": "/trip/static/js/686.f4bf6548.chunk.js",
     "static/js/231.bfe025c5.chunk.js": "/trip/static/js/231.bfe025c5.chunk.js",
     "static/js/129.59463e5c.chunk.js": "/trip/static/js/129.59463e5c.chunk.js",
-    "static/js/471.945d819a.chunk.js": "/trip/static/js/471.945d819a.chunk.js",
+    "static/js/614.a2785369.chunk.js": "/trip/static/js/614.a2785369.chunk.js",
     "static/js/719.0f7b181d.chunk.js": "/trip/static/js/719.0f7b181d.chunk.js",
     "static/media/slider2.png": "/trip/static/media/slider2.f46d2104bd90a3795ebc.png",
     "static/media/Ye.jpeg": "/trip/static/media/Ye.3bcd115ba874c2030cc0.jpeg",
@@ -20,6 +20,7 @@
     "static/media/slider3.jpg": "/trip/static/media/slider3.7d714253374b51b4aa05.jpg",
     "static/media/slider1.jpg": "/trip/static/media/slider1.62f99affae10a9cabab8.jpg",
     "static/media/Adja.jpg": "/trip/static/media/Adja.9ebcf6ec561c5cf2d26a.jpg",
+    "static/media/IMG_3903.PNG": "/trip/static/media/IMG_3903.21752e24e4e70839f4a0.PNG",
     "static/media/ipi-toulouse-hall.png": "/trip/static/media/ipi-toulouse-hall.866daf5ce8f9a80a6199.png",
     "static/media/ipi-guide-metier-popup.png": "/trip/static/media/ipi-guide-metier-popup.2984e7fac59a97be9af8.png",
     "static/media/panda-print-baby.png": "/trip/static/media/panda-print-baby.fdad8f2306b59b829879.png",
@@ -27,13 +28,14 @@
     "static/media/bandeau-IPI-chiffres.jpg": "/trip/static/media/bandeau-IPI-chiffres.6472c6fa9139bf3358e1.jpg",
     "static/media/panda-ipi.gif": "/trip/static/media/panda-ipi.d343936ff416b230f378.gif",
     "static/media/ipi-slider-rencontrez-nous.png": "/trip/static/media/ipi-slider-rencontrez-nous.68be98f5656179d5ae34.png",
+    "static/media/puzzleGame.jpg": "/trip/static/media/puzzleGame.9ad25b3c93c29b7aece7.jpg",
     "static/media/Logo2.png": "/trip/static/media/Logo2.af0d33f93a9103d0f0a8.png",
     "static/media/georgia.png": "/trip/static/media/georgia.5c951591247cfda70386.png",
     "index.html": "/trip/index.html",
     "main.86f23870.css.map": "/trip/static/css/main.86f23870.css.map",
-    "main.1f02bf0a.js.map": "/trip/static/js/main.1f02bf0a.js.map",
-    "681.c013246a.chunk.css.map": "/trip/static/css/681.c013246a.chunk.css.map",
-    "681.f19cdf23.chunk.js.map": "/trip/static/js/681.f19cdf23.chunk.js.map",
+    "main.6c6db28d.js.map": "/trip/static/js/main.6c6db28d.js.map",
+    "287.d77ce518.chunk.css.map": "/trip/static/css/287.d77ce518.chunk.css.map",
+    "287.f2fbdb2e.chunk.js.map": "/trip/static/js/287.f2fbdb2e.chunk.js.map",
     "241.c13892f8.chunk.css.map": "/trip/static/css/241.c13892f8.chunk.css.map",
     "241.a0c4b640.chunk.js.map": "/trip/static/js/241.a0c4b640.chunk.js.map",
     "312.19b43115.chunk.js.map": "/trip/static/js/312.19b43115.chunk.js.map",
@@ -41,11 +43,11 @@
     "686.f4bf6548.chunk.js.map": "/trip/static/js/686.f4bf6548.chunk.js.map",
     "231.bfe025c5.chunk.js.map": "/trip/static/js/231.bfe025c5.chunk.js.map",
     "129.59463e5c.chunk.js.map": "/trip/static/js/129.59463e5c.chunk.js.map",
-    "471.945d819a.chunk.js.map": "/trip/static/js/471.945d819a.chunk.js.map",
+    "614.a2785369.chunk.js.map": "/trip/static/js/614.a2785369.chunk.js.map",
     "719.0f7b181d.chunk.js.map": "/trip/static/js/719.0f7b181d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86f23870.css",
-    "static/js/main.1f02bf0a.js"
+    "static/js/main.6c6db28d.js"
   ]
 }

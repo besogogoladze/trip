@@ -8,13 +8,17 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import pandaIpi from "../../../Images/panda-ipi.gif";
+import Puzzle from "./Puzzle";
+
 
 function SectionOne() {
   const [expanded, setExpanded] = React.useState(false);
+  
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
+  
   return (
     <div
       style={{
@@ -108,7 +112,7 @@ function SectionOne() {
                 justifyContent: "center",
               }}
             >
-              <h3 style={{ textTransform: "uppercase", textAlign:'center' }}>
+              <h3 style={{ textTransform: "uppercase", textAlign: "center" }}>
                 See more about Web Development
               </h3>
             </div>
@@ -336,6 +340,7 @@ function SectionOne() {
           </Button>
         </NavLink>
       </Container>
+      <Puzzle/>
     </div>
   );
 }

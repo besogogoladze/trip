@@ -38,7 +38,8 @@ function Puzzle() {
           {reloadButton && (
             <div
               style={{
-                marginTop: "50px",
+                marginTop: "30px",
+                marginBottom:'50px',
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",

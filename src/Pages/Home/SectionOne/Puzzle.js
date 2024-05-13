@@ -35,28 +35,43 @@ function Puzzle() {
     >
       {puzzleAppair ? (
         <>
-          <div
-            style={{
-              position: "relative",
-              width: randomNumber === 1 ? "400px" : "300px",
-              height: "unset",
-              backgroundColor: "#000",
-              border: "1px #000 solid",
-            }}
-          >
-            {puzzle && (
-              <div>
-                <JigsawPuzzle
-                  style={{
-                    height: "unset",
-                  }}
-                  imageSrc={images[randomNumber]}
-                  rows={2}
-                  columns={2}
-                  onSolved={() => setReloadButton(true)}
-                />
-              </div>
-            )}
+          <div>
+            <div
+              style={{
+                position: "relative",
+                width: randomNumber === 1 ? "400px" : "300px",
+                height: "unset",
+                backgroundColor: "#000",
+                border: "1px #000 solid",
+              }}
+            >
+              {puzzle && (
+                <div>
+                  <JigsawPuzzle
+                    style={{
+                      height: "unset",
+                    }}
+                    imageSrc={images[randomNumber]}
+                    rows={2}
+                    columns={2}
+                    onSolved={() => setReloadButton(true)}
+                  />
+                </div>
+              )}
+            </div>
+            <Button
+              style={{
+                color: "#d33",
+                borderColor: "#d33",
+                backgroundColor: "#fff",
+                marginTop: "20px",
+              }}
+              variant="outlined"
+              size="medium"
+              onClick={() => setPuzzleAppair(false)}
+            >
+              Finish Game
+            </Button>
           </div>
           {reloadButton && (
             <div
@@ -71,7 +86,7 @@ function Puzzle() {
             >
               <p className="kodeMonoFont"> Congrats you did it!</p>
               <Button
-                style={{ color: "#d33", borderColor: "#d33" }}
+                style={{ color: "green", borderColor: "green" }}
                 variant="outlined"
                 size="medium"
                 onClick={() => setPuzzle(false)}

@@ -10,15 +10,13 @@ import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import pandaIpi from "../../../Images/panda-ipi.gif";
 import Puzzle from "./Puzzle";
 
-
 function SectionOne() {
   const [expanded, setExpanded] = React.useState(false);
-  
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
-  
+
   return (
     <div
       style={{
@@ -305,7 +303,7 @@ function SectionOne() {
           </AccordionDetails>
         </Accordion>
       </Container>
-
+      <Puzzle />
       <Container
         style={{ display: "flex", flexDirection: "column", marginTop: "100px" }}
       >
@@ -340,7 +338,6 @@ function SectionOne() {
           </Button>
         </NavLink>
       </Container>
-      <Puzzle/>
     </div>
   );
 }

@@ -35,6 +35,28 @@ function Puzzle() {
     >
       {puzzleAppair ? (
         <>
+          {reloadButton && (
+            <div
+              style={{
+                marginTop: "50px",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "10px",
+              }}
+            >
+              <p className="kodeMonoFont"> Congrats you did it!</p>
+              <Button
+                style={{ color: "green", borderColor: "green" }}
+                variant="outlined"
+                size="medium"
+                onClick={() => setPuzzle(false)}
+              >
+                reload puzzle
+              </Button>
+            </div>
+          )}
           <div>
             <div
               style={{
@@ -73,28 +95,6 @@ function Puzzle() {
               Finish Game
             </Button>
           </div>
-          {reloadButton && (
-            <div
-              style={{
-                marginTop: "50px",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "10px",
-              }}
-            >
-              <p className="kodeMonoFont"> Congrats you did it!</p>
-              <Button
-                style={{ color: "green", borderColor: "green" }}
-                variant="outlined"
-                size="medium"
-                onClick={() => setPuzzle(false)}
-              >
-                reload puzzle
-              </Button>
-            </div>
-          )}
         </>
       ) : (
         <div style={{ position: "relative", width: "100%", maxWidth: "400px" }}>

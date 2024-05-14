@@ -3,6 +3,7 @@ import slide_1 from "../../../Images/slider1.jpg";
 import slide_2 from "../../../Images/slider2.png";
 import slide_3 from "../../../Images/slider3.jpg";
 import slide_4 from "../../../Images/slider4.png";
+import slide_5 from "../../../Images/image.png";
 import Carousel from "react-elastic-carousel";
 import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOutlined";
 import ArrowCircleLeftOutlinedIcon from "@mui/icons-material/ArrowCircleLeftOutlined";
@@ -75,6 +76,7 @@ function Slider() {
             //     : setTimeout(() => carousel.current.goTo(0), 2500)
             // }
           >
+            <img style={{ width: "100%" }} src={slide_5} alt="Img Error" />
             <img style={{ width: "100%" }} src={slide_2} alt="Img Error" />
             <img style={{ width: "100%" }} src={slide_1} alt="Img Error" />
             <img style={{ width: "100%" }} src={slide_3} alt="Img Error" />

@@ -59,7 +59,6 @@ function Slider() {
           </Button>
           <Carousel
             id="carousel"
-            enableTilt={true}
             ref={carousel}
             itemsToShow={1}
             itemsToScroll={1}

@@ -15,3 +15,13 @@
 .modal:hover {
   box-shadow: 0px 0px 15px 10px #d33;
 }
+.foodContainer::before {
+  content: " ";
+  display: table;
+  padding: 50px 0;
+}
+.foodContainer::after {
+  content: " ";
+  display: table;
+  padding: 50px 0;
+}

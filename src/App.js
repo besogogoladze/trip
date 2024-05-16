@@ -10,6 +10,7 @@ const Home = lazy(() => import("./Pages/Home/Home"));
 const About_Us = lazy(() => import("./Pages/About_Us/About_Us.js"));
 const Trip = lazy(() => import("./Pages/Trip/Trip.js"));
 const IPI = lazy(() => import("./Pages/IPI/IPI.js"));
+const Food = lazy(() => import("./Pages/Food/Food.js"));
 const ErrorPage = lazy(() => import("./Pages/ErrorPage/ErrorPage.js"));
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about_us" exact element={<About_Us />} />
         <Route path="/trip_page" exact element={<Trip />} />
         <Route path="/ipi" exact element={<IPI />} />
+        <Route path="/food" exact element={<Food />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />

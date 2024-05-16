@@ -342,7 +342,11 @@ function Food() {
               francesinha ( typically served with French fries )
             </p>
           </div>
-          <img style={{ width: "60%" }} src={sandwich} alt="Error" />
+          <img
+            style={{ width: "60%", borderRadius: "0 50px 50px 0" }}
+            src={sandwich}
+            alt="Error"
+          />
         </div>
       </Container>
       <Container
@@ -367,7 +371,11 @@ function Food() {
           }}
         >
           <img
-            style={{ width: "60%", transform: "rotateY(180deg)" }}
+            style={{
+              width: "60%",
+              transform: "rotateY(180deg)",
+              borderRadius: "50px 0 0 50px",
+            }}
             src={breadcrumbles}
             alt="Error"
           />
@@ -411,7 +419,11 @@ function Food() {
               typically eaten during the holidays in Portugal.
             </p>
           </div>
-          <img style={{ width: "60%" }} src={aletria} alt="Error" />
+          <img
+            style={{ width: "60%", borderRadius: "0 50px 50px 0" }}
+            src={aletria}
+            alt="Error"
+          />
         </div>
       </Container>
     </div>

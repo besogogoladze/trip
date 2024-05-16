@@ -447,7 +447,7 @@ function SectionOne() {
         <div
           className="foodContainer"
           style={{
-            backgroundColor: "rgb(53, 64, 82)",
+            backgroundColor: "#003",
             width: "100%",
             margin: "20px 0",
           }}

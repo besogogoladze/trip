@@ -374,7 +374,7 @@ function Food() {
             style={{
               width: "60%",
               transform: "rotateY(180deg)",
-              borderRadius: "50px 0 0 50px",
+              borderRadius: "0 50px 50px 0",
             }}
             src={breadcrumbles}
             alt="Error"

@@ -1,4 +1,4 @@
-import { Container } from "@mui/system";
+import { Container } from "@mui/material";
 import React from "react";
 import sandwich from "../../Images/food_sandwich.png";
 import breadcrumbles from "../../Images/food_breadcrumbs.png";
@@ -57,6 +57,7 @@ function Food() {
           Francesinha sandwich
         </h1>
         <div
+          className="foodText"
           style={{
             display: "flex",
             justifyContent: "space-between",
@@ -95,6 +96,7 @@ function Food() {
           Bolinhos de Bacalhau
         </h1>
         <div
+          className="foodTextReverse"
           style={{
             display: "flex",
             justifyContent: "space-between",
@@ -134,6 +136,7 @@ function Food() {
           Aletria
         </h1>
         <div
+          className="foodText"
           style={{
             display: "flex",
             justifyContent: "space-between",

@@ -47,7 +47,12 @@ function IPISectionOne() {
               ></div>
             </div>
             <div
-              style={{ display: "flex", flexDirection: "column", gap: "5px" }}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "5px",
+              }}
+              className="ipiITTraining"
             >
               <NavLink
                 className="ipiNavLink"

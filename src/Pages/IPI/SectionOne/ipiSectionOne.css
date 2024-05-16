@@ -7,3 +7,7 @@
 .ipiSectionOneNews > p {
   font-size: 12.5px;
 }
+.ipiITTraining a {
+  width: fit-content;
+  width: moz-fit-content;
+}

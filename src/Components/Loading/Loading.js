@@ -9,7 +9,7 @@ export default function Loading() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "911px",
+        height: "100vh",
       }}
     >
       <GridLoader color="#d33" />

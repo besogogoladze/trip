@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "@mui/material";
 import pandaIpi from "../../../Images/panda-ipi.gif";
+import { Fade, Flip, Rotate, Slide } from "react-awesome-reveal";
 
 function SectionOne() {
   return (
@@ -9,17 +10,19 @@ function SectionOne() {
       <Container
         style={{ display: "flex", flexDirection: "column", gap: "10px" }}
       >
-        <p className="kodeMonoFont">
-          We are happy to present our trip to Porto, where we can see the
-          possibility of taking English language courses to improve our 4 skills
-          (reading, writing, listening and speaking) and chances to study and
-          communicate with other international friends. We will be in Porto for
-          10 days to visit this magnificent city. We hope that this trip will
-          allow us to discover and acquire new skills and knowledge in the field
-          of cyber security. We are going to share and talk about our
-          experiences in Porto and what we learned and observed during this
-          Porto trip in this website.
-        </p>
+        <Fade direction="down" duration={2000}>
+          <p className="kodeMonoFont">
+            We are happy to present our trip to Porto, where we can see the
+            possibility of taking English language courses to improve our 4
+            skills (reading, writing, listening and speaking) and chances to
+            study and communicate with other international friends. We will be
+            in Porto for 10 days to visit this magnificent city. We hope that
+            this trip will allow us to discover and acquire new skills and
+            knowledge in the field of cyber security. We are going to share and
+            talk about our experiences in Porto and what we learned and observed
+            during this Porto trip in this website.
+          </p>
+        </Fade>
         <div
           style={{
             width: "100%",
@@ -31,36 +34,42 @@ function SectionOne() {
         >
           <img className="pandaIpi" src={pandaIpi} alt="Error" />
         </div>
-        <h3
-          className="kodeMonoFont"
-          style={{ fontStyle: "italic", marginLeft: "20%", marginTop: "60px" }}
-        >
-          Short Description
-        </h3>
-        <ul
-          className="kodeMonoFont"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "flex-start",
-            marginLeft: "10%",
-            fontStyle: "italic",
-          }}
-        >
-          <li style={{ listStyle: "initial" }}>
-            [time] hours of lessons/conference in English
-          </li>
-          <li style={{ listStyle: "initial" }}>
-            [time] hours of English reinforcement lessons
-          </li>
-          <li style={{ listStyle: "initial" }}>
-            [number of visits] cultural visits
-          </li>
-          <li style={{ listStyle: "initial" }}>
-            [number of visits] company visits
-          </li>
-        </ul>
+        <Fade direction="down" duration={2000}>
+          <h3
+            className="kodeMonoFont"
+            style={{
+              fontStyle: "italic",
+              marginLeft: "20%",
+              marginTop: "60px",
+            }}
+          >
+            Short Description
+          </h3>
+          <ul
+            className="kodeMonoFont"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "flex-start",
+              marginLeft: "10%",
+              fontStyle: "italic",
+            }}
+          >
+            <li style={{ listStyle: "initial" }}>
+              [32h] hours of lessons/conference in English
+            </li>
+            <li style={{ listStyle: "initial" }}>
+              [9h] hours of English reinforcement lessons
+            </li>
+            <li style={{ listStyle: "initial" }}>
+              [number of visits] cultural visits
+            </li>
+            <li style={{ listStyle: "initial" }}>
+              [number of visits] company visits
+            </li>
+          </ul>
+        </Fade>
       </Container>
     </>
   );

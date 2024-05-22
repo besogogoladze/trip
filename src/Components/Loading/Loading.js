@@ -1,6 +1,6 @@
 import * as React from "react";
-import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
+import { GridLoader } from "react-spinners";
 
 export default function Loading() {
   return (
@@ -12,7 +12,7 @@ export default function Loading() {
         height: "911px",
       }}
     >
-      <CircularProgress style={{ color: "#d33" }} />
+      <GridLoader color="#d33" />
     </Box>
   );
 }

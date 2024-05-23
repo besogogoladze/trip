@@ -6,10 +6,11 @@ import aletria from "../../Images/food_aletria.png";
 import "../Home/home.css";
 import FoodTornPaperRotated from "../../Components/SVG/FoodTornPaperRotated";
 import FoodTornPaper from "../../Components/SVG/FoodTornPaper";
+import { Slide } from "react-awesome-reveal";
 
 function Food() {
   return (
-    <div>
+    <div style={{ overflowX: "hidden" }}>
       <Container style={{ position: "relative", marginTop: "20px" }}>
         <div
           style={{ width: "100%", position: "absolute", top: "0", left: "0" }}
@@ -64,21 +65,30 @@ function Food() {
             alignItems: "center",
           }}
         >
-          <div>
-            <p style={{ width: "100%" }} className="kodeMonoFont">
-              Francesinha ( meaning little French woman ) is a Portuguese
-              sandwich, originally from Porto , made with layers of toasted
-              bread and assorted hot meats such as roast , steak ,wet-cured ham
-              , linguica or chipolata over which sliced cheese is melted by the
-              ladling of a near-boiling tomato-and-beer sauce called molho de
-              francesinha ( typically served with French fries )
-            </p>
+          <div className="foodDiv" style={{ width: "50%" }}>
+            <Slide triggerOnce={true} direction="left">
+              <p style={{ width: "100%" }} className="kodeMonoFont">
+                Francesinha ( meaning little French woman ) is a Portuguese
+                sandwich, originally from Porto , made with layers of toasted
+                bread and assorted hot meats such as roast , steak ,wet-cured
+                ham , linguica or chipolata over which sliced cheese is melted
+                by the ladling of a near-boiling tomato-and-beer sauce called
+                molho de francesinha ( typically served with French fries )
+              </p>
+            </Slide>
           </div>
-          <img
-            style={{ width: "60%", borderRadius: "0 50px 50px 0" }}
-            src={sandwich}
-            alt="Error"
-          />
+          <Slide
+            triggerOnce={true}
+            className="foodImg"
+            style={{ width: "50%" }}
+            direction="right"
+          >
+            <img
+              style={{ width: "100%", borderRadius: "0 50px 50px 0" }}
+              src={sandwich}
+              alt="Error"
+            />
+          </Slide>
         </div>
       </Container>
       <Container
@@ -103,21 +113,30 @@ function Food() {
             alignItems: "center",
           }}
         >
-          <img
-            style={{
-              width: "60%",
-              transform: "rotateY(180deg)",
-              borderRadius: "0 50px 50px 0",
-            }}
-            src={breadcrumbles}
-            alt="Error"
-          />
-          <div>
-            <p style={{ width: "100%" }} className="kodeMonoFont">
-              Food in Portugal is undeniably tasty, including bolinhos de
-              bacalhau—or Portuguese codfish balls—a well-seasoned sphere of
-              potato and codfish, coated in golden breadcrumbs.
-            </p>
+          <Slide
+            triggerOnce={true}
+            className="foodImg"
+            style={{ width: "50%" }}
+            direction="left"
+          >
+            <img
+              style={{
+                width: "100%",
+                transform: "rotateY(180deg)",
+                borderRadius: "0 50px 50px 0",
+              }}
+              src={breadcrumbles}
+              alt="Error"
+            />
+          </Slide>
+          <div className="foodDiv" style={{ width: "50%" }}>
+            <Slide triggerOnce={true} direction="right">
+              <p style={{ width: "100%" }} className="kodeMonoFont">
+                Food in Portugal is undeniably tasty, including bolinhos de
+                bacalhau—or Portuguese codfish balls—a well-seasoned sphere of
+                potato and codfish, coated in golden breadcrumbs.
+              </p>
+            </Slide>
           </div>
         </div>
       </Container>
@@ -143,21 +162,30 @@ function Food() {
             alignItems: "center",
           }}
         >
-          <div>
-            <p style={{ width: "100%" }} className="kodeMonoFont">
-              Another traditional Portuguese dish, Aletria is a sweet dessert
-              made of fine, stringy pasta, with milk, egg yolks, sugar, lemon
-              rind, and cinnamon for a custardy, zesty finish. The dish is
-              usually topped with a criss-cross pattern of cinnamon powder.
-              Vermicelli noodles can also be used to make aletria, which is
-              typically eaten during the holidays in Portugal.
-            </p>
+          <div className="foodDiv" style={{ width: "50%" }}>
+            <Slide triggerOnce={true} direction="left">
+              <p style={{ width: "100%" }} className="kodeMonoFont">
+                Another traditional Portuguese dish, Aletria is a sweet dessert
+                made of fine, stringy pasta, with milk, egg yolks, sugar, lemon
+                rind, and cinnamon for a custardy, zesty finish. The dish is
+                usually topped with a criss-cross pattern of cinnamon powder.
+                Vermicelli noodles can also be used to make aletria, which is
+                typically eaten during the holidays in Portugal.
+              </p>
+            </Slide>
           </div>
-          <img
-            style={{ width: "60%", borderRadius: "0 50px 50px 0" }}
-            src={aletria}
-            alt="Error"
-          />
+          <Slide
+            triggerOnce={true}
+            className="foodImg"
+            style={{ width: "50%" }}
+            direction="right"
+          >
+            <img
+              style={{ width: "100%", borderRadius: "0 50px 50px 0" }}
+              src={aletria}
+              alt="Error"
+            />
+          </Slide>
         </div>
       </Container>
     </div>

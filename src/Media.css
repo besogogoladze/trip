@@ -51,6 +51,12 @@
   .airplaneLoading {
     width: 100%;
   }
+  .foodDiv {
+    width: 100% !important;
+  }
+  .foodImg {
+    width: 100% !important;
+  }
 }
 @media only screen and (max-width: 540px) {
   #Navigation {

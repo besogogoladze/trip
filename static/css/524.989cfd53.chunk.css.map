@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/524.989cfd53.chunk.css","mappings":"AAAA,iBACE,+BAAkC,CAClC,0BAA2B,CAC3B,0BACF","sources":["Pages/Trip/Trip.css"],"sourcesContent":[".tripCards:hover {\r\n  box-shadow: 0px 10px 20px 2px #003;\r\n  transform: translateY(-5px);\r\n  transition: 0.3s ease-in-out;\r\n}\r\n"],"names":[],"sourceRoot":""}

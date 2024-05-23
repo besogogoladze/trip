@@ -7,8 +7,10 @@ import Typography from "@mui/material/Typography";
 import Skeleton from "@mui/material/Skeleton";
 import { Zoom } from "react-awesome-reveal";
 import { useState } from "react";
-import day1 from "../../Images/trip/image5.jpeg";
-import day2 from "../../Images/trip/image4.jpeg";
+import flight_day from "../../Images/trip/voyage/image1.jpeg";
+import day1 from "../../Images/trip/church/image5.jpeg";
+import day2 from "../../Images/trip/Day2/image4.png";
+import day3 from "../../Images/trip/Day3/image0.jpg";
 import { NavLink } from "react-router-dom";
 import "./Trip.css";
 
@@ -85,10 +87,15 @@ export default function Trip() {
         gap: "20px",
       }}
     >
+      <Media
+        loading={loading}
+        img={flight_day}
+        text="Flight day"
+        linkTo={"/flight_day"}
+      />
       <Media loading={loading} img={day1} text="Day 1" linkTo={"/day1"} />
       <Media loading={loading} img={day2} text="Day 2" linkTo={"/day2"} />
-      <Media loading={loading} img={day1} text="Day 3" linkTo={"/day3"} />
-      <Media loading={loading} img={day2} text="Day 4" linkTo={"/day4"} />
+      <Media loading={loading} img={day3} text="Day 3" linkTo={"/day3"} />
       {/* <Media /> */}
     </div>
   );

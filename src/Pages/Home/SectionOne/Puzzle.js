@@ -5,7 +5,7 @@ import img from "../../../Images/IMG_3903.PNG";
 import img_guid from "../../../Images/ipi-guide-metier-popup.png";
 import { Container } from "@mui/material";
 import { Button } from "@mui/material";
-import { Fade, Flip, Hinge, Slide, Zoom } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 function Puzzle() {
   const [puzzleAppair, setPuzzleAppair] = React.useState(false);

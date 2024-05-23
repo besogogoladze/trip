@@ -24,6 +24,7 @@ function SectionThree() {
               justifyContent: "center",
               alignItems: "center",
               color: "#fff",
+              textAlign: "center",
             }}
           >
             To know everything about the

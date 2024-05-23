@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import FoodTornPaper from "../../../Components/SVG/FoodTornPaper";
 import FoodTornPaperRotated from "../../../Components/SVG/FoodTornPaperRotated";
 import SectionTwoAccordion from "./SectionTwoAccordion";
+import { Fade } from "react-awesome-reveal";
 
 function SectionTwo() {
   return (
@@ -19,13 +20,19 @@ function SectionTwo() {
             flexDirection: "column",
           }}
         >
-          <h1 className="kodeMonoFont">IT Topic</h1>
-          <p className="kodeMonoFont">Web Development</p>
+          <Fade direction="down" duration={2000}>
+            <h1 className="kodeMonoFont">IT Topic</h1>
+            <p className="kodeMonoFont">Web Development</p>
+          </Fade>
         </div>
-        <p style={{ margin: "50px 0" }} className="kodeMonoFont">
-          Here will be the text why we chose this IT Topic... 👉
-        </p>
-        <SectionTwoAccordion />
+        <Fade direction="down" duration={2000}>
+          <p style={{ margin: "50px 0" }} className="kodeMonoFont">
+            Here will be the text why we chose this IT Topic... 👉
+          </p>
+        </Fade>
+        <Fade direction="down" duration={2000}>
+          <SectionTwoAccordion />
+        </Fade>
       </Container>
       <div style={{ width: "100%", position: "relative" }}>
         <div style={{ width: "100%", position: "absolute", top: "0" }}>
@@ -40,16 +47,18 @@ function SectionTwo() {
           }}
         >
           <Container>
-            <h1
-              style={{
-                textAlign: "center",
-                marginBottom: "70px",
-                color: "#fff",
-              }}
-              className="kodeMonoFont"
-            >
-              Foods in Porto
-            </h1>
+            <Fade direction="down" duration={2000}>
+              <h1
+                style={{
+                  textAlign: "center",
+                  marginBottom: "70px",
+                  color: "#fff",
+                }}
+                className="kodeMonoFont"
+              >
+                Foods in Porto
+              </h1>
+            </Fade>
             <div
               style={{
                 display: "flex",

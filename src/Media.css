@@ -48,6 +48,9 @@
   .footerPanda {
     left: 10px !important;
   }
+  .airplaneLoading {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 540px) {
   #Navigation {
@@ -87,5 +90,11 @@
   }
   .rec-item-wrapper {
     height: 180px !important;
+  }
+  .sectionThreeContainer {
+    background-image: url("/src/Images/roadtrip_for_mobile.png") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

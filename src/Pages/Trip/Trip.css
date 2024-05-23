@@ -1,0 +1,5 @@
+.tripCards:hover {
+  box-shadow: 0px 10px 20px 2px #003;
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}

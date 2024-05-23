@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -6,50 +6,57 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Skeleton from "@mui/material/Skeleton";
 import { Zoom } from "react-awesome-reveal";
+import { useState } from "react";
+import day1 from "../../Images/trip/image5.jpeg";
+import day2 from "../../Images/trip/image4.jpeg";
+import { NavLink } from "react-router-dom";
+import "./Trip.css";
 
-function Media(props) {
-  const { loading = false } = props;
-
+function Media({ ...props }) {
   return (
-    <div style={{ width: "300px" }}>
-      <Zoom triggerOnce={true}>
-        <Card sx={{ maxWidth: 345, width: "100%" }}>
-          {loading ? (
-            <Skeleton
-              sx={{ height: 190 }}
-              animation="wave"
-              variant="rectangular"
-            />
-          ) : (
-            <CardMedia
-              component="img"
-              height="140"
-              image="https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/72bda89f-9bbf-4685-910a-2f151c4f3a8a/NicolaSturgeon_2019T-embed.jpg?w=512"
-              alt="Nicola Sturgeon on a TED talk stage"
-            />
-          )}
-
-          <CardContent>
-            {loading ? (
-              <React.Fragment>
-                <Skeleton
-                  animation="wave"
-                  height={10}
-                  style={{ marginBottom: 6 }}
-                />
-                <Skeleton animation="wave" height={10} width="80%" />
-              </React.Fragment>
+    <NavLink className="tripCards" to={props.linkTo}>
+      <div style={{ width: "300px" }}>
+        <Zoom triggerOnce={true}>
+          <Card sx={{ maxWidth: 345, width: "100%" }}>
+            {props.loading ? (
+              <Skeleton
+                sx={{ height: 190 }}
+                animation="wave"
+                variant="rectangular"
+              />
             ) : (
-              <Typography variant="body2" color="text.secondary" component="p">
-                {
-                  "Why First Minister of Scotland Nicola Sturgeon thinks GDP is the wrong measure of a country's success:"
-                }
-              </Typography>
+              <CardMedia
+                component="img"
+                height="300"
+                image={props.img}
+                alt="Error"
+              />
             )}
-          </CardContent>
-        </Card>
-      </Zoom>
-    </div>
+
+            <CardContent>
+              {props.loading ? (
+                <React.Fragment>
+                  <Skeleton
+                    animation="wave"
+                    height={10}
+                    style={{ marginBottom: 6 }}
+                  />
+                  <Skeleton animation="wave" height={10} width="80%" />
+                </React.Fragment>
+              ) : (
+                <Typography
+                  variant="body2"
+                  color="text.secondary"
+                  component="p"
+                >
+                  {props.text}
+                </Typography>
+              )}
+            </CardContent>
+          </Card>
+        </Zoom>
+      </div>
+    </NavLink>
   );
 }
 
@@ -58,6 +65,13 @@ Media.propTypes = {
 };
 
 export default function Trip() {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 500);
+  }, []);
   return (
     <div
       style={{
@@ -71,10 +85,10 @@ export default function Trip() {
         gap: "20px",
       }}
     >
-      <Media loading />
-      <Media loading />
-      <Media loading />
-      <Media loading />
+      <Media loading={loading} img={day1} text="Day 1" linkTo={"/day1"} />
+      <Media loading={loading} img={day2} text="Day 2" linkTo={"/day2"} />
+      <Media loading={loading} img={day1} text="Day 3" linkTo={"/day3"} />
+      <Media loading={loading} img={day2} text="Day 4" linkTo={"/day4"} />
       {/* <Media /> */}
     </div>
   );

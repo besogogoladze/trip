@@ -1,12 +1,14 @@
 import React from "react";
 import { Container } from "@mui/material";
 import pandaIpi from "../../../Images/panda-ipi.gif";
-import { Fade, Flip, Rotate, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function SectionOne() {
   return (
     <>
-      <h1 className="kodeMonoFont">INSENTOS</h1>
+      <Fade direction="down" duration={2000}>
+        <h1 className="kodeMonoFont">INSENTOS</h1>
+      </Fade>
       <Container
         style={{ display: "flex", flexDirection: "column", gap: "10px" }}
       >

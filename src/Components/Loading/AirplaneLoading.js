@@ -14,7 +14,7 @@ function AirplaneLoading() {
         backgroundColor: "#F4F4F4",
       }}
     >
-      <img width={"50%"} src={airplane} alt="Loading..." />
+      <img className="airplaneLoading" width={"50%"} src={airplane} alt="Loading..." />
     </Box>
   );
 }

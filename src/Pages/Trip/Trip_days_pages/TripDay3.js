@@ -11,7 +11,6 @@ import { Fade } from "react-awesome-reveal";
 import { useState } from "react";
 import { useCallback } from "react";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import { height, width } from "@mui/system";
 function TripDay3() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);

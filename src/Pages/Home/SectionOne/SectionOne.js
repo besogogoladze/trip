@@ -12,7 +12,7 @@ function SectionOne() {
       <Container
         style={{ display: "flex", flexDirection: "column", gap: "10px" }}
       >
-        <Fade direction="down" duration={2000}>
+        <Fade direction="down" duration={2000} triggerOnce={true}>
           <p className="kodeMonoFont">
             We are happy to present our trip to Porto, where we can see the
             possibility of taking English language courses to improve our 4

@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/trip/static/css/main.7a897613.css",
-    "main.js": "/trip/static/js/main.47ac630f.js",
+    "main.js": "/trip/static/js/main.f5a8f90b.js",
     "static/css/457.fcd11516.chunk.css": "/trip/static/css/457.fcd11516.chunk.css",
     "static/js/457.2af0b9a1.chunk.js": "/trip/static/js/457.2af0b9a1.chunk.js",
     "static/css/241.c13892f8.chunk.css": "/trip/static/css/241.c13892f8.chunk.css",
     "static/js/241.c9ed83fb.chunk.js": "/trip/static/js/241.c9ed83fb.chunk.js",
     "static/css/348.0df4ee50.chunk.css": "/trip/static/css/348.0df4ee50.chunk.css",
-    "static/js/348.fa9655ac.chunk.js": "/trip/static/js/348.fa9655ac.chunk.js",
+    "static/js/348.f06f0899.chunk.js": "/trip/static/js/348.f06f0899.chunk.js",
     "static/css/686.99045cf7.chunk.css": "/trip/static/css/686.99045cf7.chunk.css",
     "static/js/686.740d4eef.chunk.js": "/trip/static/js/686.740d4eef.chunk.js",
     "static/css/194.929750f5.chunk.css": "/trip/static/css/194.929750f5.chunk.css",
@@ -62,13 +62,13 @@
     "static/media/georgia.png": "/trip/static/media/georgia.5c951591247cfda70386.png",
     "index.html": "/trip/index.html",
     "main.7a897613.css.map": "/trip/static/css/main.7a897613.css.map",
-    "main.47ac630f.js.map": "/trip/static/js/main.47ac630f.js.map",
+    "main.f5a8f90b.js.map": "/trip/static/js/main.f5a8f90b.js.map",
     "457.fcd11516.chunk.css.map": "/trip/static/css/457.fcd11516.chunk.css.map",
     "457.2af0b9a1.chunk.js.map": "/trip/static/js/457.2af0b9a1.chunk.js.map",
     "241.c13892f8.chunk.css.map": "/trip/static/css/241.c13892f8.chunk.css.map",
     "241.c9ed83fb.chunk.js.map": "/trip/static/js/241.c9ed83fb.chunk.js.map",
     "348.0df4ee50.chunk.css.map": "/trip/static/css/348.0df4ee50.chunk.css.map",
-    "348.fa9655ac.chunk.js.map": "/trip/static/js/348.fa9655ac.chunk.js.map",
+    "348.f06f0899.chunk.js.map": "/trip/static/js/348.f06f0899.chunk.js.map",
     "686.99045cf7.chunk.css.map": "/trip/static/css/686.99045cf7.chunk.css.map",
     "686.740d4eef.chunk.js.map": "/trip/static/js/686.740d4eef.chunk.js.map",
     "194.929750f5.chunk.css.map": "/trip/static/css/194.929750f5.chunk.css.map",
@@ -80,6 +80,6 @@
   },
   "entrypoints": [
     "static/css/main.7a897613.css",
-    "static/js/main.47ac630f.js"
+    "static/js/main.f5a8f90b.js"
   ]
 }

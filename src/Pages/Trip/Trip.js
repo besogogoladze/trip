@@ -80,6 +80,7 @@ export default function Trip() {
   }, []);
   return (
     <div
+      id="flex_container"
       style={{
         margin: "50px auto",
         width: "100%",
@@ -139,7 +140,6 @@ export default function Trip() {
         text="Day 8 (Panda and Dragon)"
         linkTo={"/day8"}
       />
-      
 
       {/* <Media /> */}
     </div>

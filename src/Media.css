@@ -1,3 +1,11 @@
+@media (min-width: 950px) and (max-width: 1275px) {
+  #flex_container {
+    justify-content: flex-start !important;
+    margin: 50px auto !important;
+    width: 100% !important;
+    max-width: 940px !important;
+  }
+}
 @media only screen and (max-width: 900px) {
   .groupeMembers_li {
     display: flex;

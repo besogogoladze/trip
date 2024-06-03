@@ -14,6 +14,8 @@ import day4 from "../../Images/trip/Day4/image0.jpg";
 import day5 from "../../Images/trip/Day5/image0.jpg";
 import day7 from "../../Images/trip/Day7/image6.jpg";
 import day8 from "../../Images/trip/Day8/image1.jpg";
+import day9 from "../../Images/trip/Day9/image3.jpg";
+import arrival_day from "../../Images/trip/ArrivalDay/image2.jpg";
 import { NavLink } from "react-router-dom";
 import "./Trip.css";
 
@@ -80,15 +82,19 @@ export default function Trip() {
       style={{
         margin: "50px auto",
         width: "100%",
-        maxWidth: "1400px",
+        maxWidth: "1260px",
         display: "flex",
-        justifyContent: "space-around",
+        justifyContent: "flex-start",
         alignItems: "center",
         flexWrap: "wrap",
         gap: "20px",
       }}
     >
-      <Media img={flight_day} text="Departure day" linkTo={"/departure_day"} />
+      <Media
+        img={flight_day}
+        text="Departure day (Porto)"
+        linkTo={"/departure_day"}
+      />
       <Media img={day1} text="Day 1 (Dom Luis I Bridge)" linkTo={"/day1"} />
       <Media
         img={day2}
@@ -100,6 +106,12 @@ export default function Trip() {
       <Media img={day5} text="Day 5 (What is Metyis)" linkTo={"/day5"} />
       <Media img={day7} text="Day 7 (Boat tour in Aveiro)" linkTo={"/day7"} />
       <Media img={day8} text="Day 8 (Panda and Dragon)" linkTo={"/day8"} />
+      <Media img={day9} text="Day 9 (CISCO/CCNA DAY)" linkTo={"/day9"} />
+      <Media
+        img={arrival_day}
+        text="Arrival Day (Toulouse)"
+        linkTo={"/arrival_day"}
+      />
 
       {/* <Media /> */}
     </div>

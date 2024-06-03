@@ -15,6 +15,8 @@ import TripDay4 from "./Pages/Trip/Trip_days_pages/TripDay4.js";
 import TripDay5 from "./Pages/Trip/Trip_days_pages/TripDay5.js";
 import TripDay7 from "./Pages/Trip/Trip_days_pages/TripDay7.js";
 import TripDay8 from "./Pages/Trip/Trip_days_pages/TripDay8.js";
+import TripDay9 from "./Pages/Trip/Trip_days_pages/TripDay9.js";
+import TripArrivalDay from "./Pages/Trip/Trip_days_pages/TripArrivalDay.js";
 const Home = lazy(() => import("./Pages/Home/Home"));
 const About_Us = lazy(() => import("./Pages/About_Us/About_Us.js"));
 const Trip = lazy(() => import("./Pages/Trip/Trip.js"));
@@ -53,6 +55,8 @@ function App() {
             <Route path="/day5" exact element={<TripDay5 />} />
             <Route path="/day7" exact element={<TripDay7 />} />
             <Route path="/day8" exact element={<TripDay8 />} />
+            <Route path="/day9" exact element={<TripDay9 />} />
+            <Route path="/arrival_day" exact element={<TripArrivalDay />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
           <Footer />

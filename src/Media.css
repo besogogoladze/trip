@@ -1,8 +1,16 @@
-@media (min-width: 950px) and (max-width: 1275px) {
+@media only screen and (max-width: 634px) {
   #flex_container {
-    justify-content: flex-start !important;
-    margin: 50px auto !important;
-    width: 100% !important;
+    max-width: 300px !important;
+  }
+}
+@media (min-width: 634px) and (max-width: 954px) {
+  #flex_container {
+    max-width: 620px !important;
+  }
+}
+
+@media (min-width: 954px) and (max-width: 1275px) {
+  #flex_container {
     max-width: 940px !important;
   }
 }

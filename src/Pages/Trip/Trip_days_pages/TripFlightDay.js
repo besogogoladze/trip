@@ -56,17 +56,17 @@ function TripFlightDay() {
       height: 3,
     },
     {
-      src: `${image6}`,
+      src: `${image4}`,
       width: 5,
       height: 4,
     },
     {
-      src: `${image8}`,
+      src: `${image6}`,
       width: 2,
       height: 2,
     },
     {
-      src: `${image4}`,
+      src: `${image8}`,
       width: 2,
       height: 2,
     },

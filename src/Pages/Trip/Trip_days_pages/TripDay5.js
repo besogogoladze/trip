@@ -4,6 +4,7 @@ import Gallery from "react-photo-gallery";
 import image0 from "../../../Images/trip/Day5/image0.jpg";
 import image1 from "../../../Images/trip/Day5/image1.jpg";
 import image2 from "../../../Images/trip/Day5/image2.jpg";
+import image3 from "../../../Images/trip/Day5/image3.jpg";
 import { Fade } from "react-awesome-reveal";
 import { useState } from "react";
 import { useCallback } from "react";
@@ -33,6 +34,11 @@ function TripDay5() {
     {
       src: `${image1}`,
       width: 4,
+      height: 3,
+    },
+    {
+      src: `${image3}`,
+      width: 2,
       height: 3,
     },
     {

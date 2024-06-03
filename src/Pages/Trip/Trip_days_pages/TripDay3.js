@@ -6,6 +6,9 @@ import image1 from "../../../Images/trip/Day3/image1.jpg";
 import image2 from "../../../Images/trip/Day3/image2.jpg";
 import image3 from "../../../Images/trip/Day3/image3.jpg";
 import image4 from "../../../Images/trip/Day3/image4.jpg";
+import image5 from "../../../Images/trip/Day3/image5.jpg";
+import image6 from "../../../Images/trip/Day3/image6.jpg";
+import image7 from "../../../Images/trip/Day3/image7.jpg";
 import { Fade } from "react-awesome-reveal";
 import { useState } from "react";
 import { useCallback } from "react";
@@ -52,6 +55,22 @@ function TripDay3() {
       width: 2,
       height: 2,
     },
+    
+    {
+      src: `${image5}`,
+      width: 2,
+      height: 2,
+    },
+    {
+      src: `${image6}`,
+      width: 4,
+      height: 4,
+    },
+    {
+      src: `${image7}`,
+      width: 2,
+      height: 2,
+    },
   ];
 
   return (
@@ -93,7 +112,23 @@ function TripDay3() {
             the tea shop. The best snack for Pandas, Pastel de natas, which is a
             Portuguese custard tart made with puff pastry and filled with egg
             custard that is served with a dusting of powdered sugar and a pinch
-            of cinnamon, the best dessert for Panda
+            of cinnamon, the best dessert for Panda.
+            <div
+              style={{
+                borderBottom: "2px dashed #000",
+                margin: "10px 0",
+                width: "fit-content",
+              }}
+            >
+              Panda explore the Market
+            </div>
+            Bolhão At the English course , Panda decided to visit and explore
+            the Market Bolhão. We can find many fruits , wine , etc there. And
+            also , Panda started to make and ask some questions for the survey
+            about the trip of Porto to the people who visited the OPorto. Taking
+            the surveys and finding the friends from the different countries are
+            the unbelievable moment for Panda.
+            <br />
             <div
               style={{
                 borderBottom: "2px dashed #000",

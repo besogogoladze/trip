@@ -27,10 +27,13 @@ function SectionTwo() {
         </div>
         <Fade direction="down" duration={2000}>
           <p style={{ margin: "50px 0" }} className="kodeMonoFont">
-            Here will be the text why we chose this IT Topic... 👉
+            All the members in INSENTOS will take the
+            software and website development the next year ( at IPI ). Our group
+            is really fond of learning and creating websites and softwares.
+            That's why we chose this topic to present to you.
           </p>
         </Fade>
-        <Fade direction="down" duration={2000}>
+        <Fade direction="down" triggerOnce={true} duration={2000}>
           <SectionTwoAccordion />
         </Fade>
       </Container>

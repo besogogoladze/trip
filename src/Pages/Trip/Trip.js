@@ -15,7 +15,7 @@ import day5 from "../../Images/trip/Day5/image0.jpg";
 import day7 from "../../Images/trip/Day7/image6.jpg";
 import day8 from "../../Images/trip/Day8/image1.jpg";
 import day9 from "../../Images/trip/Day9/image3.jpg";
-import arrival_day from "../../Images/trip/ArrivalDay/image2.jpg";
+import arrival_day from "../../Images/trip/ArrivalDay/image4.JPG";
 import { NavLink } from "react-router-dom";
 import "./Trip.css";
 

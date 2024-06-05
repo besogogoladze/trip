@@ -5,6 +5,7 @@ import image0 from "../../../Images/trip/ArrivalDay/image0.jpg";
 import image1 from "../../../Images/trip/ArrivalDay/image1.jpg";
 import image2 from "../../../Images/trip/ArrivalDay/image2.jpg";
 import image3 from "../../../Images/trip/ArrivalDay/image3.jpg";
+import image4 from "../../../Images/trip/ArrivalDay/image4.JPG";
 import { Fade } from "react-awesome-reveal";
 import { useState } from "react";
 import { useCallback } from "react";
@@ -43,6 +44,12 @@ function TripArrivalDay() {
     },
     {
       src: `${image3}`,
+      width: 2,
+      height: 2,
+    },
+    
+    {
+      src: `${image4}`,
       width: 2,
       height: 2,
     },

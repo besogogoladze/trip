@@ -59,17 +59,16 @@ function SectionOne() {
             }}
           >
             <li style={{ listStyle: "initial" }}>
-              [32h] hours of lessons/conference in English
+              [32h] Hours of lessons/conference in English
             </li>
             <li style={{ listStyle: "initial" }}>
-              [9h] hours of English reinforcement lessons
+              [9h] Hours of English reinforcement lessons
             </li>
             <li style={{ listStyle: "initial" }}>
-              [number of visits] cultural visits
+              [2] Cultural visits (Portugal language course / Tourism day at
+              ISLA with Portuguese students)
             </li>
-            <li style={{ listStyle: "initial" }}>
-              [number of visits] company visits
-            </li>
+            <li style={{ listStyle: "initial" }}>[1] Company visits</li>
           </ul>
         </Fade>
       </Container>

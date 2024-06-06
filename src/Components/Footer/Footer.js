@@ -90,6 +90,7 @@ function Footer() {
               >
                 <NavLink
                   exact="true"
+                  target="_blank"
                   to="https://maps.app.goo.gl/J5h61LiQKm22jAXD9"
                   style={{
                     color: "#000",

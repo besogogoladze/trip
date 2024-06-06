@@ -22,6 +22,7 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 import Typography from "@mui/material/Typography";
 import Breadcrumbs from "@mui/material/Breadcrumbs";
 import { NavLink } from "react-router-dom";
+import EastIcon from "@mui/icons-material/East";
 function TripDay7() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
@@ -111,12 +112,32 @@ function TripDay7() {
 
   return (
     <>
-      <div role="presentation" style={{ margin: "50px 0px 50px 50px" }}>
+      <div role="presentation" style={{
+          display: "flex",
+          justifyContent: "space-around",
+          alignItems: "center",
+          marginTop: "50px",
+        }}>
         <Breadcrumbs aria-label="breadcrumb">
           <NavLink underline="hover" color="inherit" to="/trip_page">
             Trip
           </NavLink>
           <Typography color="#d33">Boat-Tour-In-Aveiro</Typography>
+        </Breadcrumbs>
+        <Breadcrumbs aria-label="breadcrumb">
+          <NavLink
+            style={{
+              display: "flex",
+              justifyContent: "space-around",
+              alignItems: "center",
+              gap: "5px",
+            }}
+            underline="hover"
+            color="inherit"
+            to="/day8"
+          >
+            Next Day <EastIcon />
+          </NavLink>
         </Breadcrumbs>
       </div>
       <Container style={{ marginTop: "50px" }}>

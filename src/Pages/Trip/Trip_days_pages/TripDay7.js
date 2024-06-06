@@ -12,6 +12,9 @@ import image7 from "../../../Images/trip/Day7/image7.jpg";
 import image8 from "../../../Images/trip/Day7/image8.jpg";
 import image9 from "../../../Images/trip/Day7/image9.jpg";
 import image10 from "../../../Images/trip/Day7/image10.jpg";
+import image11 from "../../../Images/trip/Day7/image11.jpg";
+import image12 from "../../../Images/trip/Day7/image12.jpg";
+import image13 from "../../../Images/trip/Day7/image13.jpg";
 import { Fade } from "react-awesome-reveal";
 import { useState } from "react";
 import { useCallback } from "react";
@@ -85,6 +88,21 @@ function TripDay7() {
     },
     {
       src: `${image10}`,
+      width: 4,
+      height: 3,
+    },
+    {
+      src: `${image11}`,
+      width: 2,
+      height: 2,
+    },
+    {
+      src: `${image12}`,
+      width: 4,
+      height: 5,
+    },
+    {
+      src: `${image13}`,
       width: 4,
       height: 3,
     },

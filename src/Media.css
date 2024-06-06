@@ -23,6 +23,7 @@
   }
   .groupeMembers_img_p {
     flex-direction: column;
+    align-items: center !important;
   }
   .groupeMembers_img_p > img {
     width: 40% !important;

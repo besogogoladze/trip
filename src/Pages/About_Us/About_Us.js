@@ -71,7 +71,11 @@ function About_Us() {
             className="groupeMembers_img_p"
           >
             <Bounce duration={2000} triggerOnce={true}>
-              <img style={{ width: "200px" }} src={Besiki} alt={ImgBesiki} />
+              <img
+                style={{ width: "200px", borderRadius: "20px" }}
+                src={Besiki}
+                alt={ImgBesiki}
+              />
             </Bounce>
             <Bounce duration={2000} triggerOnce={true}>
               <p className="kodeMonoFont">
@@ -111,7 +115,11 @@ function About_Us() {
             className="groupeMembers_img_p"
           >
             <Bounce duration={2000} triggerOnce={true}>
-              <img style={{ width: "200px" }} src={Adja} alt={ImgBesiki} />
+              <img
+                style={{ width: "200px", borderRadius: "20px" }}
+                src={Adja}
+                alt={ImgBesiki}
+              />
             </Bounce>
             <Bounce duration={2000} triggerOnce={true}>
               <p className="kodeMonoFont">
@@ -148,7 +156,11 @@ function About_Us() {
             className="groupeMembers_img_p"
           >
             <Bounce duration={2000} triggerOnce={true}>
-              <img style={{ width: "200px" }} src={Ye} alt={ImgBesiki} />
+              <img
+                style={{ width: "200px", borderRadius: "20px" }}
+                src={Ye}
+                alt={ImgBesiki}
+              />
             </Bounce>
             <Bounce duration={2000} triggerOnce={true}>
               <p className="kodeMonoFont">

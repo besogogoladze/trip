@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trip/static/css/main.06a23e8c.css",
-    "main.js": "/trip/static/js/main.df51fd1c.js",
+    "main.js": "/trip/static/js/main.6362d7cb.js",
     "static/css/457.fcd11516.chunk.css": "/trip/static/css/457.fcd11516.chunk.css",
     "static/js/457.01de75d7.chunk.js": "/trip/static/js/457.01de75d7.chunk.js",
     "static/css/241.c13892f8.chunk.css": "/trip/static/css/241.c13892f8.chunk.css",
@@ -27,7 +27,7 @@
     "static/media/image0.jpg": "/trip/static/media/image0.ee483634f877b3a58384.jpg",
     "static/media/Ye.jpeg": "/trip/static/media/Ye.11d50d8b58be3ce46f53.jpeg",
     "static/media/food_sandwich.png": "/trip/static/media/food_sandwich.e76b4d4331541636ebe9.png",
-    "static/media/image4.jpg": "/trip/static/media/image4.730906a2a1f0d036aa50.jpg",
+    "static/media/image4.jpg": "/trip/static/media/image4.19e2cf4340bbe8c1e679.jpg",
     "static/media/image1.jpg": "/trip/static/media/image1.0e56e71778b875ff4e6c.jpg",
     "static/media/image9.jpg": "/trip/static/media/image9.46f92dd7c54b81fa197e.jpg",
     "static/media/roadtrip_for_mobile.png": "/trip/static/media/roadtrip_for_mobile.59f189b258e1c8b7db7d.png",
@@ -70,7 +70,7 @@
     "static/media/georgia.png": "/trip/static/media/georgia.5c951591247cfda70386.png",
     "index.html": "/trip/index.html",
     "main.06a23e8c.css.map": "/trip/static/css/main.06a23e8c.css.map",
-    "main.df51fd1c.js.map": "/trip/static/js/main.df51fd1c.js.map",
+    "main.6362d7cb.js.map": "/trip/static/js/main.6362d7cb.js.map",
     "457.fcd11516.chunk.css.map": "/trip/static/css/457.fcd11516.chunk.css.map",
     "457.01de75d7.chunk.js.map": "/trip/static/js/457.01de75d7.chunk.js.map",
     "241.c13892f8.chunk.css.map": "/trip/static/css/241.c13892f8.chunk.css.map",
@@ -88,6 +88,6 @@
   },
   "entrypoints": [
     "static/css/main.06a23e8c.css",
-    "static/js/main.df51fd1c.js"
+    "static/js/main.6362d7cb.js"
   ]
 }
